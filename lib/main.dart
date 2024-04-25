@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_3/image_grid.dart';
+
 
 void main() => runApp(MaterialApp(
 home: const KanjiDictionaryApp(),
@@ -55,17 +57,18 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
 
   void _handleSwipe() {
     setState(() {
-      swipeCount++;
+      swipeCount++; //Sets the Swipe count at 1 when you swipe for the first time then increments by one after that.
       int swipesNeeded = (currentSetIndex == 0) ? 5 : 4;
 
       // Check if it's time to show a random kanji from previous set
-      if (currentSetIndex > 0 && (swipeCount % swipesNeeded) == 3) {
+      if (currentSetIndex > 0 && (swipeCount % swipesNeeded) == 3) { //Makes sure you don't start with the first set of Kanji
         final previousSet = kanjiSets[currentSetIndex - 1];
-        currentKanji = (previousSet..shuffle()).first;
+        currentKanji = (previousSet..shuffle()).first;//shuffles the previous set and then gives you that shuffled lists first element
+        //This is the kanji re-fresher part of the app
       } else if (swipeCount >= swipesNeeded) {
-        swipeCount = 0;
+        swipeCount = 0; //Sets the count back to 0 on the swipes
         currentKanjiIndex = (currentKanjiIndex + 1) % kanjiSets[currentSetIndex].length;
-
+        //currentKanjiIndex is the part that gives you the new kanji to review
         if (currentKanjiIndex == 0 && currentSetIndex < kanjiSets.length - 1) {
           currentSetIndex++;
         }
@@ -133,6 +136,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
               title: const Text('Known Kanji'),
               onTap: () {
                 Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => const KanjiGridScreen()));
               },
             ),
             ListTile(
