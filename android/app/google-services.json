@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471101732762",
+    "project_id": "kanji-app-c51ac",
+    "storage_bucket": "kanji-app-c51ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471101732762:android:d7714e2eba1967adfdec23",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFgpBGKlj7GuyXfyYMcvOtwSKq86puZOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

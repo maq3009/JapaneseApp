@@ -21,6 +21,7 @@ class KanjiDictionaryApp extends StatefulWidget {
   const KanjiDictionaryApp({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _KanjiDictionaryAppState createState() => _KanjiDictionaryAppState();
 }
 
