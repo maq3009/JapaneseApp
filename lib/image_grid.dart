@@ -1,7 +1,9 @@
 import "package:flutter/material.dart";
 
 class KanjiGridScreen extends StatelessWidget {
-  const KanjiGridScreen({super.key});
+  final List<String> kanjiList;
+  
+  const KanjiGridScreen({super.key, required this.kanjiList});
 
   @override
   Widget build(BuildContext context) {
@@ -13,11 +15,13 @@ class KanjiGridScreen extends StatelessWidget {
         // Create a grid with 2 columns. If you change the scrollDirection to horizontal, this produces 2 rows.
         crossAxisCount: 2,
         //Generate 100 widgets that display their index in the List.  
-        children: List.generate(100, (index) {
+        children: List.generate(kanjiList.length, (index) {
+          // double fontSize = 35;
+                  
           return Center(
             child: Text(
-              'Kanji $index',
-              style: Theme.of(context).textTheme.headlineSmall,
+              kanjiList[index],
+              style: Theme.of(context).textTheme.displayLarge,
             ),
           );
         }),
