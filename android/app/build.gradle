@@ -29,13 +29,13 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
+    compileSdkVersion 34
     defaultConfig {
         applicationId "com.example.flutter_application_3"
         minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        targetSdkVersion 33
     }
 
     buildTypes {
@@ -60,7 +60,9 @@ dependencies {
 
     // ML Kit Text Recognition with support for Japanese text recognition
     implementation 'com.google.mlkit:text-recognition:16.0.0'
-    implementation 'com.google.mlkit:text-recognition-japanese:16.0.0-beta5'  // Adding support for Japanese text recognition
+
+    implementation 'com.google.mlkit:text-recognition-japanese:16.0.0'
+  // Adding support for Japanese text recognition
 }
 
 // Apply Google services plugin

@@ -1,5 +1,4 @@
-import "dart:async";
-
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
@@ -9,7 +8,6 @@ class KanjiCameraWidget extends StatefulWidget {
   const KanjiCameraWidget({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _KanjiCameraWidgetState createState() => _KanjiCameraWidgetState();
 }
 
@@ -37,22 +35,27 @@ class _KanjiCameraWidgetState extends State<KanjiCameraWidget> {
           return;
         }
         setState(() {});
-      });
 
-      _processingTimer = Timer.periodic(const Duration(seconds: 500), (timer) {
-        if (!_isProcessingImage && _controller!.value.isInitialized) {
-          _processCameraImage();
-        }
+        // Start the processing timer only after the camera is initialized
+        _processingTimer = Timer.periodic(const Duration(seconds: 5), (timer) {
+          if (!_isProcessingImage && _controller!.value.isInitialized) {
+            _processCameraImage();
+          }
+        });
       });
     }
   }
 
   void _processCameraImage() async {
     _isProcessingImage = true;
-    final image = await _controller!.takePicture();
-    _recognizeTextFromImage(image);
-
-    // Reset the flag after processing
+    if (!_controller!.value.isTakingPicture) {
+      try {
+        final image = await _controller!.takePicture();
+        await _recognizeTextFromImage(image);
+      } catch (e) {
+        _logger.e("Failed to take a picture/recognize text: $e");
+      }
+    }
     _isProcessingImage = false;
   }
 
