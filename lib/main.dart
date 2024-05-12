@@ -133,14 +133,14 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
     );
   }
 
-    Widget buildSearchResults(List<Kanji> results) {
+  Widget buildSearchResults(List<Kanji> results) {
     return ListView.builder(
       itemCount: results.length,
       itemBuilder: (context, index) {
         return ListTile(
-          leading: Icon(Icons.book),
+          leading: const Icon(Icons.book),
           title: Text(results[index].character),
-          subtitle: Text("${results[index].meanings.join(", ")}"),
+          subtitle: Text(results[index].meanings.join(", ")),
           onTap: () {
             setState(() {
               currentIndex = KanjiRepository.kanjiList.indexOf(results[index]);
@@ -153,17 +153,40 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
     );
   }
 
-  Widget buildKanjiDetails(Kanji kanji) {
-    return SingleChildScrollView(
+Widget buildKanjiDetails(Kanji kanji) {
+  return GestureDetector(
+    onHorizontalDragEnd: (DragEndDetails details) {
+      // Determine the direction of the swipe
+      if (details.primaryVelocity! < 0) { // Swiping left to go to the next kanji
+        if (currentIndex < KanjiRepository.kanjiList.length - 1) {
+          setState(() {
+            currentIndex++;
+          });
+        }
+      } else if (details.primaryVelocity! > 0) { // Swiping right to go to the previous kanji
+        if (currentIndex > 0) {
+          setState(() {
+            currentIndex--;
+          });
+        }
+      }
+    },
+    child: Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text(kanji.character, style: const TextStyle(fontSize: 60, fontWeight: FontWeight.bold)),
+          SizedBox(height: 10),
           Text("Meanings: ${kanji.meanings.join(", ")}"),
+          SizedBox(height: 10),
           Text("On-yomi: ${kanji.onYomi.join(", ")}"),
+          SizedBox(height: 10),
           Text("Kun-yomi: ${kanji.kunYomi.join(", ")}"),
+          SizedBox(height: 10),
           Text("Strokes: ${kanji.strokes}"),
+          SizedBox(height: 10),
           Text("Grade: ${kanji.grade}"),
           CheckboxListTile(
             title: const Text('Known?'),
@@ -178,8 +201,9 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
           ),
         ],
       ),
-    );
-  }
+    ),
+  );
+}
 
   void _updateTitleAndNavigate(String title) {
     List<Kanji> filteredKanjiList = title == "Known Kanji" 
