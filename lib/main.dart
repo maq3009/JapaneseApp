@@ -24,16 +24,16 @@ class KanjiDictionaryApp extends StatefulWidget {
   const KanjiDictionaryApp({super.key});
 
   @override
-  // ignore: library_private_types_in_public_api
   _KanjiDictionaryAppState createState() => _KanjiDictionaryAppState();
 }
 
 class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
   int currentIndex = 0;
   bool isLoading = true;
-  String currentKanji = '';
-  String appBarTitle = 'Kanji Learner'; // Default title
+  List<Kanji> filteredKanji = []; // List to hold filtered results
+  bool isSearching = false;
   TextEditingController searchController = TextEditingController();
+  String appBarTitle = 'Kanji Learner';
 
   @override
   void initState() {
@@ -41,28 +41,67 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
     loadKanjiData();
   }
 
-
   Future<void> loadKanjiData() async {
     try {
       await KanjiRepository().fetchAndSetKanji();
       setState(() => isLoading = false);
     } catch (e) {
-      print('Failed to load Kanji data: $e');  // Consider more robust error handling or UI feedback
+      print('Failed to load Kanji data: $e');
     }
   }
 
-
-
-
+  void searchKanji(String query) {
+    if (query.isEmpty) {
+      setState(() {
+        isSearching = false;
+      });
+    } else {
+      setState(() {
+        isSearching = true;
+        filteredKanji = KanjiRepository.kanjiList.where((kanji) {
+          return kanji.meanings.any((m) => m.toLowerCase().contains(query.toLowerCase())) ||
+                 kanji.onYomi.any((o) => o.toLowerCase().contains(query.toLowerCase())) ||
+                 kanji.kunYomi.any((k) => k.toLowerCase().contains(query.toLowerCase()));
+        }).toList();
+      });
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
+    List<Kanji> displayList = isSearching ? filteredKanji : KanjiRepository.kanjiList;
+
     return Scaffold(
       appBar: AppBar(
-        title: Text(isLoading ? 'Loading...' : 'Kanji Learner'),
+        title: !isSearching
+            ? const Text('Kanji Learner')
+            : TextField(
+                controller: searchController,
+                decoration: InputDecoration(
+                  hintText: 'Search kanji...',
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.clear),
+                    onPressed: () {
+                      setState(() {
+                        searchController.clear();
+                        isSearching = false;
+                      });
+                    },
+                  ),
+                ),
+                onChanged: searchKanji,
+              ),
         centerTitle: true,
         actions: [
-          if (!isLoading) IconButton(icon: const Icon(Icons.search), onPressed: _startSearch),
+          if (!isSearching)
+            IconButton(
+              icon: const Icon(Icons.search),
+              onPressed: () {
+                setState(() {
+                  isSearching = true;
+                });
+              },
+            ),
         ],
       ),
       drawer: Drawer(
@@ -93,41 +132,50 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
         ),
       ),
       body: isLoading
-        ? const Center(child: CircularProgressIndicator())
-        : Center(
-            child: GestureDetector(
+          ? const Center(child: CircularProgressIndicator())
+          : GestureDetector(
               onHorizontalDragEnd: (details) {
-                if (details.primaryVelocity! < 0 && currentIndex < KanjiRepository.kanjiList.length - 1) {
+                if (details.primaryVelocity! < 0 && currentIndex < displayList.length - 1) {
                   setState(() => currentIndex++);
                 } else if (details.primaryVelocity! > 0 && currentIndex > 0) {
                   setState(() => currentIndex--);
                 }
               },
-              child: SingleChildScrollView(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Text(KanjiRepository.kanjiList[currentIndex].character, style: const TextStyle(fontSize: 80, fontWeight: FontWeight.bold)),
-                    Text("Meanings: ${KanjiRepository.kanjiList[currentIndex].meanings.join(", ")}"),
-                    Text("On-yomi: ${KanjiRepository.kanjiList[currentIndex].onYomi.join(", ")}"),
-                    Text("Kun-yomi: ${KanjiRepository.kanjiList[currentIndex].kunYomi.join(", ")}"),
-                    Text("Strokes: ${KanjiRepository.kanjiList[currentIndex].strokes}"),
-                    Text("Grade: ${KanjiRepository.kanjiList[currentIndex].grade}"),
-                    CheckboxListTile(
-                      title: const Text('Known?'),
-                      value: KanjiRepository.kanjiList[currentIndex].isKnown,
-                      onChanged: (bool? value) {
-                        setState(() {
-                          KanjiRepository.kanjiList[currentIndex].isKnown = value!;
-                        });
-                      },
-                    ),
-                  ],
-                ),
+              child: Center(
+                child: displayList.isNotEmpty
+                    ? buildKanjiDetails(displayList[currentIndex])
+                    : const Text("No results found"),
               ),
             ),
+    );
+  }
+
+  Widget buildKanjiDetails(Kanji kanji) {
+    return SingleChildScrollView(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Text(kanji.character, style: const TextStyle(fontSize: 60, fontWeight: FontWeight.bold)),
+          Text("Meanings: ${kanji.meanings.join(", ")}"),
+          Text("On-yomi: ${kanji.onYomi.join(", ")}"),
+          Text("Kun-yomi: ${kanji.kunYomi.join(", ")}"),
+          Text("Strokes: ${kanji.strokes}"),
+          Text("Grade: ${kanji.grade}"),
+          CheckboxListTile(
+            title: const Text('Known?'),
+            value: kanji.isKnown,
+            onChanged: (bool? value) {
+              setState(() {
+                kanji.isKnown = value!;
+                // Optionally, you might want to persist this change
+              });
+            },
+            secondary: const Icon(Icons.check),
+            controlAffinity: ListTileControlAffinity.leading,
           ),
+        ],
+      ),
     );
   }
 
@@ -141,16 +189,15 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
       builder: (context) => KanjiGridScreen(kanjiList: filteredKanjiList, title: title),
     )).then((_) {
       setState(() {
-        // Reset the AppBar title when returning from the grid screen
-        appBarTitle = 'Kanji Learner';
+        appBarTitle = 'Kanji Learner'; // Reset the AppBar title when returning from the grid screen
       });
     });
   }
 
   void _startSearch() {
     setState(() {
-      // This would typically trigger a search functionality
-      // For example, showing a search bar or filtering your kanji list
+      isSearching = true;
+      // You might want to initialize a search or show a search bar here
     });
   }
 }
