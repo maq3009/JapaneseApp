@@ -30,7 +30,7 @@ class KanjiDictionaryApp extends StatefulWidget {
 class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
   int currentIndex = 0;
   bool isLoading = true;
-  List<Kanji> filteredKanji = []; // List to hold filtered results
+  List<Kanji> filteredKanji = [];
   bool isSearching = false;
   TextEditingController searchController = TextEditingController();
   String appBarTitle = 'Kanji Learner';
@@ -69,28 +69,24 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
 
   @override
   Widget build(BuildContext context) {
-    List<Kanji> displayList = isSearching ? filteredKanji : KanjiRepository.kanjiList;
-
     return Scaffold(
       appBar: AppBar(
-        title: !isSearching
-            ? const Text('Kanji Learner')
-            : TextField(
-                controller: searchController,
-                decoration: InputDecoration(
-                  hintText: 'Search kanji...',
-                  suffixIcon: IconButton(
-                    icon: const Icon(Icons.clear),
-                    onPressed: () {
-                      setState(() {
-                        searchController.clear();
-                        isSearching = false;
-                      });
-                    },
-                  ),
-                ),
-                onChanged: searchKanji,
-              ),
+        title: !isSearching ? Text(appBarTitle) : TextField(
+          controller: searchController,
+          decoration: InputDecoration(
+            hintText: 'Search kanji...',
+            suffixIcon: IconButton(
+              icon: const Icon(Icons.clear),
+              onPressed: () {
+                setState(() {
+                  searchController.clear();
+                  isSearching = false;
+                });
+              },
+            ),
+          ),
+          onChanged: searchKanji,
+        ),
         centerTitle: true,
         actions: [
           if (!isSearching)
@@ -133,20 +129,27 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
       ),
       body: isLoading
           ? const Center(child: CircularProgressIndicator())
-          : GestureDetector(
-              onHorizontalDragEnd: (details) {
-                if (details.primaryVelocity! < 0 && currentIndex < displayList.length - 1) {
-                  setState(() => currentIndex++);
-                } else if (details.primaryVelocity! > 0 && currentIndex > 0) {
-                  setState(() => currentIndex--);
-                }
-              },
-              child: Center(
-                child: displayList.isNotEmpty
-                    ? buildKanjiDetails(displayList[currentIndex])
-                    : const Text("No results found"),
-              ),
-            ),
+          : isSearching ? buildSearchResults(filteredKanji) : buildKanjiDetails(KanjiRepository.kanjiList[currentIndex]),
+    );
+  }
+
+    Widget buildSearchResults(List<Kanji> results) {
+    return ListView.builder(
+      itemCount: results.length,
+      itemBuilder: (context, index) {
+        return ListTile(
+          leading: Icon(Icons.book),
+          title: Text(results[index].character),
+          subtitle: Text("${results[index].meanings.join(", ")}"),
+          onTap: () {
+            setState(() {
+              currentIndex = KanjiRepository.kanjiList.indexOf(results[index]);
+              isSearching = false;
+              searchController.clear();
+            });
+          },
+        );
+      },
     );
   }
 
@@ -168,7 +171,6 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
             onChanged: (bool? value) {
               setState(() {
                 kanji.isKnown = value!;
-                // Optionally, you might want to persist this change
               });
             },
             secondary: const Icon(Icons.check),
@@ -197,7 +199,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
   void _startSearch() {
     setState(() {
       isSearching = true;
-      // You might want to initialize a search or show a search bar here
+      appBarTitle = 'Enter search term';
     });
   }
 }
