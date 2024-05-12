@@ -13,6 +13,7 @@ dependencies:
   google_mlkit_commons:
   google_mlkit_text_recognition: ^0.13.0
   logger: ^2.2.0
+  http: ^0.13.3
 
 dev_dependencies:
   flutter_test:
