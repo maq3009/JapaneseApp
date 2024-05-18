@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_3/about_page.dart';
 import 'package:flutter_application_3/image_grid.dart'; // Ensure this path is correct
 import 'package:flutter_application_3/kanji_camera.dart'; // Make sure the path matches the location of your file
 import 'package:flutter_application_3/kanji_model.dart'; // Ensure this is correctly pointing to your Kanji model
@@ -28,12 +29,12 @@ class KanjiDictionaryApp extends StatefulWidget {
 }
 
 class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
-  int currentIndex = 0;
-  bool isLoading = true;
+  int currentIndex = 0;  //current index of the kanji
+  bool isLoading = true;  //whether the kanji screen is loading or not
   List<Kanji> filteredKanji = [];
-  bool isSearching = false;
+  bool isSearching = false;  //whether the user is searching or not
   TextEditingController searchController = TextEditingController();
-  String appBarTitle = 'Kanji Learner';
+  String appBarTitle = 'Kanji Learner';  //beginning appbar screen title
 
   @override
   void initState() {
@@ -46,6 +47,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
       await KanjiRepository().fetchAndSetKanji();
       setState(() => isLoading = false);
     } catch (e) {
+      // ignore: avoid_print
       print('Failed to load Kanji data: $e');
     }
   }
@@ -59,9 +61,11 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
       setState(() {
         isSearching = true;
         filteredKanji = KanjiRepository.kanjiList.where((kanji) {
-          return kanji.meanings.any((m) => m.toLowerCase().contains(query.toLowerCase())) ||
-                 kanji.onYomi.any((o) => o.toLowerCase().contains(query.toLowerCase())) ||
-                 kanji.kunYomi.any((k) => k.toLowerCase().contains(query.toLowerCase()));
+        // user can search by meaning, onyomi or kun yomi
+        //turns the search term into loweercase and checks whether it contains that term
+          return kanji.meanings.any((meaning) => meaning.toLowerCase().contains(query.toLowerCase())) ||
+                 kanji.onYomi.any((onyomi) => onyomi.toLowerCase().contains(query.toLowerCase())) ||
+                 kanji.kunYomi.any((kunyomi) => kunyomi.toLowerCase().contains(query.toLowerCase()));
         }).toList();
       });
     }
@@ -112,8 +116,8 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
               onTap: () => _updateTitleAndNavigate('Known Kanji'),
             ),
             ListTile(
-              title: const Text('Unknown Kanji'),
-              onTap: () => _updateTitleAndNavigate('Unknown Kanji'),
+              title: const Text('Not-known Kanji'),
+              onTap: () => _updateTitleAndNavigate('Not-known Kanji'),
             ),
             ListTile(
               title: const Text('Kanji Camera'),
@@ -121,6 +125,15 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
                 Navigator.pop(context);
                 Navigator.push(context, MaterialPageRoute(
                   builder: (context) => const KanjiCameraWidget(),
+                ));
+              },
+            ),
+            ListTile( 
+                title: const Text('About'), 
+                onTap: () {
+                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => AboutPage(),
                 ));
               },
             ),
@@ -153,7 +166,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
     );
   }
 
-Widget buildKanjiDetails(Kanji kanji) {
+Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping
   return GestureDetector(
     onHorizontalDragEnd: (DragEndDetails details) {
       // Determine the direction of the swipe
@@ -172,34 +185,56 @@ Widget buildKanjiDetails(Kanji kanji) {
       }
     },
     child: Center(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(kanji.character, style: const TextStyle(fontSize: 60, fontWeight: FontWeight.bold)),
-          SizedBox(height: 10),
-          Text("Meanings: ${kanji.meanings.join(", ")}"),
-          SizedBox(height: 10),
-          Text("On-yomi: ${kanji.onYomi.join(", ")}"),
-          SizedBox(height: 10),
-          Text("Kun-yomi: ${kanji.kunYomi.join(", ")}"),
-          SizedBox(height: 10),
-          Text("Strokes: ${kanji.strokes}"),
-          SizedBox(height: 10),
-          Text("Grade: ${kanji.grade}"),
-          CheckboxListTile(
-            title: const Text('Known?'),
-            value: kanji.isKnown,
-            onChanged: (bool? value) {
-              setState(() {
-                kanji.isKnown = value!;
-              });
-            },
-            secondary: const Icon(Icons.check),
-            controlAffinity: ListTileControlAffinity.leading,
+      child: Container(
+        color: Colors.lightBlue[100],
+        padding: const EdgeInsets.only(top: 100.0, bottom: 30.0, left: 10.0, right: 10.0),
+        child: Card(
+          
+          elevation: 20,
+          margin: const EdgeInsets.all(16),
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(kanji.character, style: const TextStyle(fontSize: 60, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 10),
+                Text("Meanings: ${kanji.meanings.join(", ")}"),
+                const SizedBox(height: 10),
+                Text("On-yomi: ${kanji.onYomi.join(", ")}"),
+                const SizedBox(height: 10),
+                Text("Kun-yomi: ${kanji.kunYomi.join(", ")}"),
+                const SizedBox(height: 10),
+                Text("Strokes: ${kanji.strokes}"),
+                const SizedBox(height: 10),
+                Text("Grade: ${kanji.grade}"),
+                const Padding(
+                  padding: EdgeInsets.only(top: 50.0, left: 35, right: 35),
+                  child: Divider(
+                    color: Colors.orange,
+                    thickness: 10.0,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(top: 70.0),
+                  child: CheckboxListTile(
+                    title: const Text('Known?'),
+                    value: kanji.isKnown,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        kanji.isKnown = value!;
+                      });
+                    },
+                    secondary: const Icon(Icons.check),
+                    controlAffinity: ListTileControlAffinity.leading,
+                  ),
+                ),
+              ],
+            ),
           ),
-        ],
+        ),
       ),
     ),
   );
