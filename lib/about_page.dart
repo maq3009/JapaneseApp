@@ -52,7 +52,7 @@ class AboutPage extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Developed by: Your Name',
+              'Developed by: Misael A Quiñones',
               style: TextStyle(
                 fontSize: 16,
                 fontStyle: FontStyle.italic,

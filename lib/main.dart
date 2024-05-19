@@ -5,6 +5,7 @@ import 'package:flutter_application_3/kanji_camera.dart'; // Make sure the path 
 import 'package:flutter_application_3/kanji_model.dart'; // Ensure this is correctly pointing to your Kanji model
 import 'package:flutter_application_3/kanji_repository.dart'; // Import the KanjiRepository
 
+
 void main() {
   runApp(MaterialApp(
     home: const KanjiDictionaryApp(),
@@ -62,7 +63,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
         isSearching = true;
         filteredKanji = KanjiRepository.kanjiList.where((kanji) {
         // user can search by meaning, onyomi or kun yomi
-        //turns the search term into loweercase and checks whether it contains that term
+        //turns the search term into lowercase and checks whether it contains that term
           return kanji.meanings.any((meaning) => meaning.toLowerCase().contains(query.toLowerCase())) ||
                  kanji.onYomi.any((onyomi) => onyomi.toLowerCase().contains(query.toLowerCase())) ||
                  kanji.kunYomi.any((kunyomi) => kunyomi.toLowerCase().contains(query.toLowerCase()));
@@ -109,18 +110,58 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
           children: <Widget>[
             const DrawerHeader(
               decoration: BoxDecoration(color: Colors.blue),
-              child: Text('Drawer Header'),
+              child: Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.only(left: 23.0),
+                    child: CircleAvatar(
+                      radius: 35,  // Adjust the radius
+                      backgroundImage: AssetImage('assets/Enso.jpg'),
+                    ),
+                  ),
+                  SizedBox(width: 16), // Add some spacing between the image and the text
+                  Expanded(
+                    child: Padding(
+                      padding: EdgeInsets.only(left: 16.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Kanji Learner',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          Text(
+                            'App Menu', // Replace with your actual subtitle
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
-            ListTile(
-              title: const Text('Known Kanji'),
+            _buildDrawerItem(
+              icon: Icons.book,
+              text: 'Known Kanji',
               onTap: () => _updateTitleAndNavigate('Known Kanji'),
             ),
-            ListTile(
-              title: const Text('Not-known Kanji'),
+            _buildDrawerItem(
+              icon: Icons.bookmark,
+              text: 'Not-known Kanji',
               onTap: () => _updateTitleAndNavigate('Not-known Kanji'),
             ),
-            ListTile(
-              title: const Text('Kanji Camera'),
+            _buildDrawerItem(
+              icon: Icons.camera_alt,
+              text: 'Kanji Camera',
               onTap: () {
                 Navigator.pop(context);
                 Navigator.push(context, MaterialPageRoute(
@@ -128,12 +169,13 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
                 ));
               },
             ),
-            ListTile( 
-                title: const Text('About'), 
-                onTap: () {
+            _buildDrawerItem(
+              icon: Icons.info,
+              text: 'About',
+              onTap: () {
                 Navigator.pop(context);
                 Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => AboutPage(),
+                  builder: (context) => const AboutPage(),
                 ));
               },
             ),
@@ -188,8 +230,7 @@ Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping
       child: Container(
         color: Colors.lightBlue[100],
         padding: const EdgeInsets.only(top: 100.0, bottom: 30.0, left: 10.0, right: 10.0),
-        child: Card(
-          
+        child: Card(        
           elevation: 20,
           margin: const EdgeInsets.all(16),
           child: Padding(
@@ -239,6 +280,42 @@ Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping
     ),
   );
 }
+
+  Widget _buildDrawerItem({
+    required IconData icon,
+    required String text,
+    required GestureTapCallback onTap,
+  }) {
+    return InkWell(
+      onTap: onTap,
+      splashColor: Colors.blueAccent,
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(8.0),
+          color: Colors.white,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.grey.withOpacity(0.5),
+              spreadRadius: 1,
+              blurRadius: 2,
+              offset: const Offset(0, 2), // changes position of shadow
+            ),
+          ],
+        ),
+        child: ListTile(
+          leading: Padding(
+            padding: const EdgeInsets.only(left: 16.0),
+            child: Icon(icon),
+          ),
+          title: Text(text),
+        ),
+      ),
+    );
+  }
+
+
+
+
 
   void _updateTitleAndNavigate(String title) {
     List<Kanji> filteredKanjiList = title == "Known Kanji" 
