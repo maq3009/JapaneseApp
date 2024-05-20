@@ -182,9 +182,12 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
           ],
         ),
       ),
-      body: isLoading
+      body: Container(
+        color: Colors.lightBlue[100],
+        child: isLoading
           ? const Center(child: CircularProgressIndicator())
           : isSearching ? buildSearchResults(filteredKanji) : buildKanjiDetails(KanjiRepository.kanjiList[currentIndex]),
+      ),
     );
   }
 
@@ -229,16 +232,15 @@ Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping
     child: Center(
       child: Container(
         color: Colors.lightBlue[100],
-        padding: const EdgeInsets.only(top: 100.0, bottom: 30.0, left: 10.0, right: 10.0),
+        padding: const EdgeInsets.symmetric(vertical: 10),
         child: Card(        
           elevation: 20,
           margin: const EdgeInsets.all(16),
           child: Padding(
             padding: const EdgeInsets.all(16),
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text(kanji.character, style: const TextStyle(fontSize: 60, fontWeight: FontWeight.bold)),
                 const SizedBox(height: 10),
@@ -252,14 +254,14 @@ Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping
                 const SizedBox(height: 10),
                 Text("Grade: ${kanji.grade}"),
                 const Padding(
-                  padding: EdgeInsets.only(top: 50.0, left: 35, right: 35),
+                  padding: EdgeInsets.symmetric(vertical: 20.0),
                   child: Divider(
                     color: Colors.orange,
                     thickness: 10.0,
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 70.0),
+                  padding: const EdgeInsets.only(top: 10.0),
                   child: CheckboxListTile(
                     title: const Text('Known?'),
                     value: kanji.isKnown,
