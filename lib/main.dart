@@ -191,7 +191,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
     );
   }
 
-  Widget buildSearchResults(List<Kanji> results) {
+  Widget buildSearchResults(List<Kanji> results) {    //if the app is searching
     return ListView.builder(
       itemCount: results.length,
       itemBuilder: (context, index) {
@@ -211,7 +211,7 @@ class _KanjiDictionaryAppState extends State<KanjiDictionaryApp> {
     );
   }
 
-Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping
+Widget buildKanjiDetails(Kanji kanji) {  //Handles Swiping  //If the app is not searching
   return GestureDetector(
     onHorizontalDragEnd: (DragEndDetails details) {
       // Determine the direction of the swipe

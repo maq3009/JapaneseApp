@@ -132,18 +132,26 @@ packages:
     dependency: "direct main"
     description:
       name: google_mlkit_commons
-      sha256: "27d626c66a181351a953eba5b6ff1ff123aadb891b4dab085b292118f039d6ac"
+      sha256: af63771903947d5523d9e991a939a4b8bf994f11661c9b9c8a71d7d3997115f8
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.1"
+    version: "0.2.0"
   google_mlkit_text_recognition:
     dependency: "direct main"
     description:
       name: google_mlkit_text_recognition
-      sha256: "89c848329355f165ff17ca8645cab5998770e9e25e431fe6dd8261ed9cf7bdc4"
+      sha256: "6dc31f02beb1cfd6818da4bf29bf4ae5f4f9e16422c1efd0b515ed0756d73b8e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.0"
+    version: "0.5.0"
+  google_mlkit_translation:
+    dependency: "direct main"
+    description:
+      name: google_mlkit_translation
+      sha256: "13877e7cdbdd4a92db2ece43451bf38508865e9c29af7b88b7a258ac8e486327"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.1"
   http:
     dependency: "direct main"
     description:
@@ -220,10 +228,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: "25dfcaf170a0190f47ca6355bdd4552cb8924b430512ff0cafb8db9bd41fe33b"
+      sha256: bdb68674043280c3428e9ec998512fb681678676b3c54e773629ffe74419f8c7
       url: "https://pub.dev"
     source: hosted
-    version: "1.14.0"
+    version: "1.15.0"
   path:
     dependency: transitive
     description:
@@ -297,10 +305,10 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: "2419f20b0c8677b2d67c8ac4d1ac7372d862dc6c460cdbb052b40155408cd794"
+      sha256: "5b8a98dafc4d5c4c9c72d8b31ab2b23fc13422348d2997120294d3bac86b4ddb"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.1"
+    version: "0.7.2"
   typed_data:
     dependency: transitive
     description:
@@ -321,10 +329,10 @@ packages:
     dependency: transitive
     description:
       name: vm_service
-      sha256: "7475cb4dd713d57b6f7464c0e13f06da0d535d8b2067e188962a59bac2cf280b"
+      sha256: "360c4271613beb44db559547d02f8b0dc044741d0eeb9aa6ccdb47e8ec54c63a"
       url: "https://pub.dev"
     source: hosted
-    version: "14.2.2"
+    version: "14.2.3"
   web:
     dependency: transitive
     description:
