@@ -1,0 +1,4210 @@
+[
+  {
+    "kanji": "氏",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "uji",
+    "hiragana": "うじ",
+    "meaning": "family name, surname, clan"
+  },
+  {
+    "kanji": "統",
+    "onyomi": "tou",
+    "katakana": "トウ",
+    "kunyomi": "su(beru)",
+    "hiragana": "す(べる)",
+    "meaning": "ruling, governing"
+  },
+  {
+    "kanji": "基",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "moto, motoi",
+    "hiragana": "もと、 もとい",
+    "meaning": "fundamentals, counter for machines, foundation"
+  },
+  {
+    "kanji": "価",
+    "onyomi": "ka",
+    "katakana": "カ",
+    "kunyomi": "atai",
+    "hiragana": "あたい",
+    "meaning": "value, price"
+  },
+  {
+    "kanji": "提",
+    "onyomi": "tei",
+    "katakana": "テイ",
+    "kunyomi": "sa(geru)",
+    "hiragana": "さ(げる)",
+    "meaning": "propose, take along, carry in hand"
+  },
+  {
+    "kanji": "挙",
+    "onyomi": "kyo",
+    "katakana": "キョ",
+    "kunyomi": "a(geru), kozo(ru)",
+    "hiragana": "あ(げる)、 こぞ(る)",
+    "meaning": "raise, plan, project, behavior, actions"
+  },
+  {
+    "kanji": "応",
+    "onyomi": "ou",
+    "katakana": "オウ",
+    "kunyomi": "kota(eru)",
+    "hiragana": "こた(える)",
+    "meaning": "apply, answer, yes, OK, reply, accept"
+  },
+  {
+    "kanji": "企",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "kuwada(teru), takura(mu)",
+    "hiragana": "くわだ(てる)、 たくら(む)",
+    "meaning": "undertake, scheme, design, attempt, plan"
+  },
+  {
+    "kanji": "検",
+    "onyomi": "ken",
+    "katakana": "ケン",
+    "kunyomi": "shira(beru)",
+    "hiragana": "しら(べる)",
+    "meaning": "examination, investigate"
+  },
+  {
+    "kanji": "藤",
+    "onyomi": "tou",
+    "katakana": "トウ",
+    "kunyomi": "fuji",
+    "hiragana": "ふじ",
+    "meaning": "wisteria"
+  },
+  {
+    "kanji": "沢",
+    "onyomi": "taku",
+    "katakana": "タク",
+    "kunyomi": "sawa",
+    "hiragana": "さわ",
+    "meaning": "swamp, marsh, brilliance, grace"
+  },
+  {
+    "kanji": "裁",
+    "onyomi": "sai",
+    "katakana": "サイ",
+    "kunyomi": "ta(tsu), saba(ku)",
+    "hiragana": "た(つ)、 さば(く)",
+    "meaning": "tailor, judge, decision, cut out (pattern)"
+  },
+  {
+    "kanji": "証",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "akashi",
+    "hiragana": "あかし",
+    "meaning": "evidence, proof, certificate"
+  },
+  {
+    "kanji": "援",
+    "onyomi": "en",
+    "katakana": "エン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "abet, help, save"
+  },
+  {
+    "kanji": "可",
+    "onyomi": "ka",
+    "katakana": "カ",
+    "kunyomi": "be(ki)",
+    "hiragana": "べ(き)",
+    "meaning": "can, passable, mustn't, should not"
+  },
+  {
+    "kanji": "施",
+    "onyomi": "shi, se",
+    "katakana": "シ、 セ",
+    "kunyomi": "hodoko(su)",
+    "hiragana": "ほどこ(す)",
+    "meaning": "give, bestow, perform, alms"
+  },
+  {
+    "kanji": "井",
+    "onyomi": "sei, shou",
+    "katakana": "セイ、 ショウ",
+    "kunyomi": "i",
+    "hiragana": "い",
+    "meaning": "well, well crib, town, community"
+  },
+  {
+    "kanji": "護",
+    "onyomi": "go",
+    "katakana": "ゴ",
+    "kunyomi": "mamo(ru)",
+    "hiragana": "まも(る)",
+    "meaning": "safeguard, protect"
+  },
+  {
+    "kanji": "展",
+    "onyomi": "ten",
+    "katakana": "テン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "unfold, expand"
+  },
+  {
+    "kanji": "態",
+    "onyomi": "tai",
+    "katakana": "タイ",
+    "kunyomi": "waza(to)",
+    "hiragana": "わざ(と)",
+    "meaning": "attitude, condition"
+  },
+  {
+    "kanji": "鮮",
+    "onyomi": "sen",
+    "katakana": "セン",
+    "kunyomi": "aza(yaka)",
+    "hiragana": "あざ(やか)",
+    "meaning": "fresh, vivid, clear"
+  },
+  {
+    "kanji": "視",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "mi(ru)",
+    "hiragana": "み(る)",
+    "meaning": "inspection, regard as, see, look at"
+  },
+  {
+    "kanji": "条",
+    "onyomi": "jou",
+    "katakana": "ジョウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "article, clause, counter for articles"
+  },
+  {
+    "kanji": "幹",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "miki",
+    "hiragana": "みき",
+    "meaning": "tree trunk, main part, talent, capability"
+  },
+  {
+    "kanji": "独",
+    "onyomi": "doku",
+    "katakana": "ドク",
+    "kunyomi": "hito(ri)",
+    "hiragana": "ひと(り)",
+    "meaning": "single, alone, spontaneously"
+  },
+  {
+    "kanji": "宮",
+    "onyomi": "kyuu, guu, ku",
+    "katakana": "キュウ、 グウ、 ク",
+    "kunyomi": "miya",
+    "hiragana": "みや",
+    "meaning": "Shinto shrine, constellations, palace, princess"
+  },
+  {
+    "kanji": "率",
+    "onyomi": "sotsu, ritsu",
+    "katakana": "ソツ、 リツ",
+    "kunyomi": "hiki(iru)",
+    "hiragana": "ひき(いる)",
+    "meaning": "ratio, rate, proportion, %, factor, lead"
+  },
+  {
+    "kanji": "衛",
+    "onyomi": "ei",
+    "katakana": "エイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "defense, protection"
+  },
+  {
+    "kanji": "張",
+    "onyomi": "chou",
+    "katakana": "チョウ",
+    "kunyomi": "ha(ru)",
+    "hiragana": "は(る)",
+    "meaning": "lengthen, counter for bows & stringed instruments, stretch, spread, put up (tent)"
+  },
+  {
+    "kanji": "監",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "oversee, official, govt office, rule, administer"
+  },
+  {
+    "kanji": "環",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "wa",
+    "hiragana": "わ",
+    "meaning": "ring, circle, link, wheel"
+  },
+  {
+    "kanji": "審",
+    "onyomi": "shin",
+    "katakana": "シン",
+    "kunyomi": "tsumabi(raka), tsubusa(ni)",
+    "hiragana": "つまび(らか)、 つぶさ(に)",
+    "meaning": "hearing, judge, trial"
+  },
+  {
+    "kanji": "義",
+    "onyomi": "gi",
+    "katakana": "ギ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "righteousness, justice, morality, honor, loyalty, meaning"
+  },
+  {
+    "kanji": "訴",
+    "onyomi": "so",
+    "katakana": "ソ",
+    "kunyomi": "utta(eru)",
+    "hiragana": "うった(える)",
+    "meaning": "accusation, sue, complain of pain, appeal to"
+  },
+  {
+    "kanji": "株",
+    "onyomi": "shu",
+    "katakana": "シュ",
+    "kunyomi": "kabu",
+    "hiragana": "かぶ",
+    "meaning": "stocks, stump, shares, stock, counter for small plants"
+  },
+  {
+    "kanji": "姿",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "sugata",
+    "hiragana": "すがた",
+    "meaning": "figure, form, shape"
+  },
+  {
+    "kanji": "閣",
+    "onyomi": "kaku",
+    "katakana": "カク",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "tower, tall building, palace"
+  },
+  {
+    "kanji": "韓",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "kara, igeta",
+    "hiragana": "から、 いげた",
+    "meaning": "Korea"
+  },
+  {
+    "kanji": "衆",
+    "onyomi": "shuu, shu",
+    "katakana": "シュウ、 シュ",
+    "kunyomi": "oo(i)",
+    "hiragana": "おお(い)",
+    "meaning": "masses, great numbers, multitude, populace"
+  },
+  {
+    "kanji": "評",
+    "onyomi": "hyou",
+    "katakana": "ヒョウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "evaluate, criticism, comment"
+  },
+  {
+    "kanji": "岡",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "oka",
+    "hiragana": "おか",
+    "meaning": "mount, hill, knoll"
+  },
+  {
+    "kanji": "影",
+    "onyomi": "ei",
+    "katakana": "エイ",
+    "kunyomi": "kage",
+    "hiragana": "かげ",
+    "meaning": "shadow, silhouette, phantom"
+  },
+  {
+    "kanji": "松",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "matsu",
+    "hiragana": "まつ",
+    "meaning": "pine tree"
+  },
+  {
+    "kanji": "撃",
+    "onyomi": "geki",
+    "katakana": "ゲキ",
+    "kunyomi": "u(tsu)",
+    "hiragana": "う(つ)",
+    "meaning": "beat, attack, defeat, conquer"
+  },
+  {
+    "kanji": "佐",
+    "onyomi": "sa",
+    "katakana": "サ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "assistant, help"
+  },
+  {
+    "kanji": "核",
+    "onyomi": "kaku",
+    "katakana": "カク",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "nucleus, core, kernel"
+  },
+  {
+    "kanji": "整",
+    "onyomi": "sei",
+    "katakana": "セイ",
+    "kunyomi": "totono(eru)",
+    "hiragana": "ととの(える)",
+    "meaning": "organize, arranging, tune, tone, meter, key (music)"
+  },
+  {
+    "kanji": "融",
+    "onyomi": "yuu",
+    "katakana": "ユウ",
+    "kunyomi": "to(keru)",
+    "hiragana": "と(ける)",
+    "meaning": "dissolve, melt"
+  },
+  {
+    "kanji": "製",
+    "onyomi": "sei",
+    "katakana": "セイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "made in..., manufacture"
+  },
+  {
+    "kanji": "票",
+    "onyomi": "hyou",
+    "katakana": "ヒョウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "ballot, label, ticket, sign"
+  },
+  {
+    "kanji": "渉",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "wata(ru)",
+    "hiragana": "わた(る)",
+    "meaning": "ford, go cross, transit, ferry, import, involve"
+  },
+  {
+    "kanji": "響",
+    "onyomi": "kyou",
+    "katakana": "キョウ",
+    "kunyomi": "hibi(ku)",
+    "hiragana": "ひび(く)",
+    "meaning": "echo, sound, resound, ring, vibrate"
+  },
+  {
+    "kanji": "推",
+    "onyomi": "sui",
+    "katakana": "スイ",
+    "kunyomi": "o(su)",
+    "hiragana": "お(す)",
+    "meaning": "conjecture, infer, guess, suppose, support, push (for)"
+  },
+  {
+    "kanji": "請",
+    "onyomi": "sei, shin, shou",
+    "katakana": "セイ、 シン、 ショウ",
+    "kunyomi": "ko(u), u(keru)",
+    "hiragana": "こ(う)、 う(ける)",
+    "meaning": "solicit, invite, ask"
+  },
+  {
+    "kanji": "器",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "utsuwa",
+    "hiragana": "うつわ",
+    "meaning": "utensil, vessel, receptacle, implement, instrument, ability, container, tool, set"
+  },
+  {
+    "kanji": "士",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "samurai",
+    "hiragana": "さむらい",
+    "meaning": "gentleman, scholar, samurai"
+  },
+  {
+    "kanji": "討",
+    "onyomi": "tou",
+    "katakana": "トウ",
+    "kunyomi": "u(tsu)",
+    "hiragana": "う(つ)",
+    "meaning": "chastise, attack, defeat, destroy, conquer"
+  },
+  {
+    "kanji": "攻",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "se(meru)",
+    "hiragana": "せ(める)",
+    "meaning": "aggression, attack, criticize, polish"
+  },
+  {
+    "kanji": "崎",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "saki, sai, misaki",
+    "hiragana": "さき、 さい、 みさき",
+    "meaning": "promontory, cape, spit"
+  },
+  {
+    "kanji": "督",
+    "onyomi": "toku",
+    "katakana": "トク",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "coach, command, urge, lead, supervise"
+  },
+  {
+    "kanji": "授",
+    "onyomi": "ju",
+    "katakana": "ジュ",
+    "kunyomi": "sazu(keru)",
+    "hiragana": "さず(ける)",
+    "meaning": "impart, instruct, grant, confer"
+  },
+  {
+    "kanji": "催",
+    "onyomi": "sai",
+    "katakana": "サイ",
+    "kunyomi": "moyou(su), moyoo(su)",
+    "hiragana": "もよう(す)、 もよお(す)",
+    "meaning": "sponsor, hold (a meeting), give (a dinner)"
+  },
+  {
+    "kanji": "及",
+    "onyomi": "kyuu",
+    "katakana": "キュウ",
+    "kunyomi": "oyo(bu), oyobi",
+    "hiragana": "およ(ぶ)、 および",
+    "meaning": "reach out, exert, exercise, cause"
+  },
+  {
+    "kanji": "憲",
+    "onyomi": "ken",
+    "katakana": "ケン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "constitution, law"
+  },
+  {
+    "kanji": "離",
+    "onyomi": "ri",
+    "katakana": "リ",
+    "kunyomi": "hana(reru)",
+    "hiragana": "はな(れる)",
+    "meaning": "detach, separation, disjoin, digress"
+  },
+  {
+    "kanji": "激",
+    "onyomi": "geki",
+    "katakana": "ゲキ",
+    "kunyomi": "hage(shii)",
+    "hiragana": "はげ(しい)",
+    "meaning": "violent, get excited, enraged, chafe, incite"
+  },
+  {
+    "kanji": "摘",
+    "onyomi": "teki",
+    "katakana": "テキ",
+    "kunyomi": "tsu(mu)",
+    "hiragana": "つ(む)",
+    "meaning": "pinch, pick, pluck, trim, clip, summarize"
+  },
+  {
+    "kanji": "系",
+    "onyomi": "kei",
+    "katakana": "ケイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "lineage, system"
+  },
+  {
+    "kanji": "批",
+    "onyomi": "hi",
+    "katakana": "ヒ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "criticism, strike"
+  },
+  {
+    "kanji": "郎",
+    "onyomi": "rou",
+    "katakana": "ロウ、 リョウ",
+    "kunyomi": "otoko",
+    "hiragana": "おとこ",
+    "meaning": "son, counter for sons"
+  },
+  {
+    "kanji": "健",
+    "onyomi": "ken",
+    "katakana": "ケン",
+    "kunyomi": "suko(yaka)",
+    "hiragana": "すこ(やか)",
+    "meaning": "healthy, health, strength, persistence"
+  },
+  {
+    "kanji": "従",
+    "onyomi": "juu, shou, ju",
+    "katakana": "ジュウ、 ショウ、 ジュ",
+    "kunyomi": "shitaga(u), yori",
+    "hiragana": "したが(う)、 より",
+    "meaning": "accompany, obey, submit to, comply, follow, secondary, incidental, subordinate"
+  },
+  {
+    "kanji": "修",
+    "onyomi": "shuu, shu",
+    "katakana": "シュウ、 シュ",
+    "kunyomi": "osa(meru)",
+    "hiragana": "おさ(める)",
+    "meaning": "discipline, conduct oneself well, study, master"
+  },
+  {
+    "kanji": "隊",
+    "onyomi": "tai",
+    "katakana": "タイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "regiment, party, company, squad"
+  },
+  {
+    "kanji": "織",
+    "onyomi": "shoku, shiki",
+    "katakana": "ショク、 シキ",
+    "kunyomi": "o(ru), ori, -ori, -o(ri)",
+    "hiragana": "お(る)、 おり、 -おり、 -お(り)",
+    "meaning": "weave, fabric"
+  },
+  {
+    "kanji": "拡",
+    "onyomi": "kaku, kou",
+    "katakana": "カク、 コウ",
+    "kunyomi": "hiro(garu)",
+    "hiragana": "ひろ(がる)",
+    "meaning": "broaden, extend, expand, enlarge"
+  },
+  {
+    "kanji": "故",
+    "onyomi": "ko",
+    "katakana": "コ",
+    "kunyomi": "yue, furu(i), moto",
+    "hiragana": "ゆえ、 ふる(い)、 もと",
+    "meaning": "happenstance, especially, intentionally, reason, cause, circumstances, the late, therefore, consequently"
+  },
+  {
+    "kanji": "振",
+    "onyomi": "shin",
+    "katakana": "シン",
+    "kunyomi": "fu(ru)",
+    "hiragana": "ふ(る)",
+    "meaning": "shake, wave, wag, swing"
+  },
+  {
+    "kanji": "弁",
+    "onyomi": "ben, hen",
+    "katakana": "ベン、 ヘン",
+    "kunyomi": "kanmuri, wakama(eru), wa(keru), hanabira, araso(u)",
+    "hiragana": "かんむり、 わきま(える)、 わ(ける)、 はなびら、 あらそ(う)",
+    "meaning": "valve, petal, braid, speech, dialect, discrimination, dispose of, distinguish, conical cap"
+  },
+  {
+    "kanji": "就",
+    "onyomi": "shuu, ju",
+    "katakana": "シュウ、 ジュ",
+    "kunyomi": "tsu(ku)",
+    "hiragana": "つ(く)",
+    "meaning": "concerning, settle, take position, depart, study, per"
+  },
+  {
+    "kanji": "異",
+    "onyomi": "i",
+    "katakana": "イ",
+    "kunyomi": "koto, koto(naru), ke",
+    "hiragana": "こと、 こと(なる)、 け",
+    "meaning": "uncommon, different, queerness, strangeness, wonderful, curious, unusual"
+  },
+  {
+    "kanji": "献",
+    "onyomi": "ken, kon",
+    "katakana": "ケン、 コン",
+    "kunyomi": "tatematsu(ru)",
+    "hiragana": "たてまつ(る)",
+    "meaning": "offering, counter for drinks, present, offer"
+  },
+  {
+    "kanji": "厳",
+    "onyomi": "gen, gon",
+    "katakana": "ゲン、 ゴン",
+    "kunyomi": "ogoso(ka), kibi(shii), ika(meshii), itsukushi",
+    "hiragana": "おごそ(か)、 きび(しい)、 いか(めしい)、 いつくし",
+    "meaning": "stern, strictness, severity, rigidity"
+  },
+  {
+    "kanji": "維",
+    "onyomi": "i",
+    "katakana": "イ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "fiber, tie, rope"
+  },
+  {
+    "kanji": "浜",
+    "onyomi": "hin",
+    "katakana": "ヒン",
+    "kunyomi": "hama",
+    "hiragana": "はま",
+    "meaning": "seacoast, beach, seashore"
+  },
+  {
+    "kanji": "遺",
+    "onyomi": "i, yui",
+    "katakana": "イ、 ユイ",
+    "kunyomi": "noko(su)",
+    "hiragana": "のこ(す)",
+    "meaning": "bequeath, leave behind, reserve"
+  },
+  {
+    "kanji": "塁",
+    "onyomi": "rui, rai, sui",
+    "katakana": "ルイ、 ライ、 スイ",
+    "kunyomi": "toride",
+    "hiragana": "とりで",
+    "meaning": "bases, fort, rampart, walls, base(ball)"
+  },
+  {
+    "kanji": "邦",
+    "onyomi": "hou",
+    "katakana": "ホウ",
+    "kunyomi": "kuni",
+    "hiragana": "くに",
+    "meaning": "home country, country, Japan"
+  },
+  {
+    "kanji": "素",
+    "onyomi": "so, su",
+    "katakana": "ソ、 ス",
+    "kunyomi": "moto",
+    "hiragana": "もと",
+    "meaning": "elementary, principle, naked, uncovered"
+  },
+  {
+    "kanji": "遣",
+    "onyomi": "ken",
+    "katakana": "ケン",
+    "kunyomi": "tsuka(u), -tsuka(i), -dzuka(i), ya(ru)",
+    "hiragana": "つか(う)、 -つか(い)、 -づか(い)、 や(る)",
+    "meaning": "dispatch, despatch, send, give, donate, do, undertake"
+  },
+  {
+    "kanji": "抗",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "araga(u)",
+    "hiragana": "あらが(う)",
+    "meaning": "confront, resist, defy, oppose"
+  },
+  {
+    "kanji": "模",
+    "onyomi": "mo, bo",
+    "katakana": "モ、 ボ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "imitation, copy, mock"
+  },
+  {
+    "kanji": "雄",
+    "onyomi": "yuu",
+    "katakana": "ユウ",
+    "kunyomi": "o-, osu, on",
+    "hiragana": "お-、 おす、 おん",
+    "meaning": "masculine, male, hero, leader, superiority, excellence"
+  },
+  {
+    "kanji": "益",
+    "onyomi": "eki, yaku",
+    "katakana": "エキ、ヤク",
+    "kunyomi": "ma(su)",
+    "hiragana": "ま(す)",
+    "meaning": "benefit, gain, profit, advantage"
+  },
+  {
+    "kanji": "緊",
+    "onyomi": "kin",
+    "katakana": "キン",
+    "kunyomi": "shi(meru)",
+    "hiragana": "し(める)",
+    "meaning": "tense, solid, hard, reliable, tight"
+  },
+  {
+    "kanji": "標",
+    "onyomi": "hyou",
+    "katakana": "ヒョウ",
+    "kunyomi": "shirube, shirushi",
+    "hiragana": "しるべ、 しるし",
+    "meaning": "signpost, seal, mark, stamp, imprint, symbol, emblem, trademark, evidence, souvenir, target"
+  },
+  {
+    "kanji": "宣",
+    "onyomi": "sen",
+    "katakana": "セン",
+    "kunyomi": "notama(u)",
+    "hiragana": "のたま(う)",
+    "meaning": "proclaim, say, announce"
+  },
+  {
+    "kanji": "昭",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "shining, bright"
+  },
+  {
+    "kanji": "廃",
+    "onyomi": "hai",
+    "katakana": "ハイ",
+    "kunyomi": "suta(reru)",
+    "hiragana": "すた(れる)",
+    "meaning": "abolish, obsolete, cessation, discarding, abandon"
+  },
+  {
+    "kanji": "伊",
+    "onyomi": "i",
+    "katakana": "イ",
+    "kunyomi": "kare",
+    "hiragana": "かれ",
+    "meaning": "Italy, that one"
+  },
+  {
+    "kanji": "江",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "e",
+    "hiragana": "え",
+    "meaning": "creek, inlet, bay"
+  },
+  {
+    "kanji": "僚",
+    "onyomi": "ryou",
+    "katakana": "リョウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "colleague, official, companion"
+  },
+  {
+    "kanji": "吉",
+    "onyomi": "kichi, kitsu",
+    "katakana": "キチ、 キツ",
+    "kunyomi": "yoshi",
+    "hiragana": "よし",
+    "meaning": "good luck, joy, congratulations"
+  },
+  {
+    "kanji": "盛",
+    "onyomi": "sei, jou",
+    "katakana": "セイ、 ジョウ",
+    "kunyomi": "mo(ru), saka(ru)",
+    "hiragana": "も(る)、 さか(る)",
+    "meaning": "boom, prosper, copulate"
+  },
+  {
+    "kanji": "皇",
+    "onyomi": "kou, ou",
+    "katakana": "コウ、 オウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "emperor"
+  },
+  {
+    "kanji": "臨",
+    "onyomi": "rin",
+    "katakana": "リン",
+    "kunyomi": "nozo(mu)",
+    "hiragana": "のぞ(む)",
+    "meaning": "look to, face, meet, confront, attend, call on"
+  },
+  {
+    "kanji": "踏",
+    "onyomi": "tou",
+    "katakana": "トウ",
+    "kunyomi": "fu(mu)",
+    "hiragana": "ふ(む)",
+    "meaning": "step, trample, carry through, appraise, evade payment"
+  },
+  {
+    "kanji": "壊",
+    "onyomi": "kai, e",
+    "katakana": "カイ、 エ",
+    "kunyomi": "kowa(su), yabu(ru)",
+    "hiragana": "こわ(す)、 やぶ(る)",
+    "meaning": "demolition, break, destroy"
+  },
+  {
+    "kanji": "債",
+    "onyomi": "sai",
+    "katakana": "サイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "bond, loan, debt"
+  },
+  {
+    "kanji": "興",
+    "onyomi": "kou, kyou",
+    "katakana": "コウ、 キョウ",
+    "kunyomi": "oko(su)",
+    "hiragana": "おこ(る)",
+    "meaning": "entertain, revive, retrieve, interest, pleasure"
+  },
+  {
+    "kanji": "源",
+    "onyomi": "gen",
+    "katakana": "ゲン",
+    "kunyomi": "minamoto",
+    "hiragana": "みなもと",
+    "meaning": "source, origin"
+  },
+  {
+    "kanji": "儀",
+    "onyomi": "gi",
+    "katakana": "ギ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "ceremony, rule, affair, case, a matter"
+  },
+  {
+    "kanji": "創",
+    "onyomi": "sou, shou",
+    "katakana": "ソウ、 ショウ",
+    "kunyomi": "tsuku(ru), haji(meru), sazu, kezu(shikeru)",
+    "hiragana": "つく(る)、 はじ(める)、 きず、 けず(しける)",
+    "meaning": "genesis, wound, injury, hurt, start, originate"
+  },
+  {
+    "kanji": "障",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "sawa(ru)",
+    "hiragana": "さわ(る)",
+    "meaning": "hinder, hurt, harm"
+  },
+  {
+    "kanji": "継",
+    "onyomi": "kei",
+    "katakana": "ケイ",
+    "kunyomi": "tsu(gu), mama-",
+    "hiragana": "つ(ぐ)、 まま-",
+    "meaning": "inherit, succeed, continue, patch, graft (tree)"
+  },
+  {
+    "kanji": "筋",
+    "onyomi": "kin",
+    "katakana": "キン",
+    "kunyomi": "suji",
+    "hiragana": "すじ",
+    "meaning": "muscle, sinew, tendon, fiber, plot, plan, descent"
+  },
+  {
+    "kanji": "狙",
+    "onyomi": "so, sho",
+    "katakana": "ソ、 ショ",
+    "kunyomi": "nera(u)",
+    "hiragana": "ねら(う)",
+    "meaning": "aim at, sight, shadow, stalk"
+  },
+  {
+    "kanji": "闘",
+    "onyomi": "tou",
+    "katakana": "トウ",
+    "kunyomi": "tataka(u), araso(u)",
+    "hiragana": "たたか(う)、 あらそ(う)",
+    "meaning": "fight, war"
+  },
+  {
+    "kanji": "葬",
+    "onyomi": "sou",
+    "katakana": "ソウ",
+    "kunyomi": "houmu(ru)",
+    "hiragana": "ほうむ(る)",
+    "meaning": "interment, bury, shelve"
+  },
+  {
+    "kanji": "避",
+    "onyomi": "hi",
+    "katakana": "ヒ",
+    "kunyomi": "sa(keru), yo(keru)",
+    "hiragana": "さ(ける)、 よ(ける)",
+    "meaning": "evade, avoid, avert, ward off, shirk, shun"
+  },
+  {
+    "kanji": "司",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "tsukasado(ru)",
+    "hiragana": "つかさど(る)",
+    "meaning": "director, official, govt office, rule, administer"
+  },
+  {
+    "kanji": "康",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "ease, peace"
+  },
+  {
+    "kanji": "善",
+    "onyomi": "zen",
+    "katakana": "ゼン",
+    "kunyomi": "yo(i), i(i), yoshi(tosuru)",
+    "hiragana": "よ(い)、 い(い)、 よし(とする)",
+    "meaning": "virtuous, good, goodness"
+  },
+  {
+    "kanji": "逮",
+    "onyomi": "tai",
+    "katakana": "タイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "apprehend, chase"
+  },
+  {
+    "kanji": "迫",
+    "onyomi": "haku",
+    "katakana": "ハク",
+    "kunyomi": "sema(aru)",
+    "hiragana": "せま(る)",
+    "meaning": "urge, force, imminent, spur on"
+  },
+  {
+    "kanji": "惑",
+    "onyomi": "waku",
+    "katakana": "ワク",
+    "kunyomi": "mado(u)",
+    "hiragana": "まど(う)",
+    "meaning": "beguile, delusion, perplexity"
+  },
+  {
+    "kanji": "崩",
+    "onyomi": "hou",
+    "katakana": "ホウ",
+    "kunyomi": "kuzu(reru), -kuzu(re)",
+    "hiragana": "くず(れる)、 -くず(れ)",
+    "meaning": "crumble, die, demolish, level"
+  },
+  {
+    "kanji": "紀",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "chronicle, account, narrative, history, annals, geologic period"
+  },
+  {
+    "kanji": "聴",
+    "onyomi": "chou, tei",
+    "katakana": "チョウ、 テイ",
+    "kunyomi": "ki(ku), yuru(su)",
+    "hiragana": "き(く)、 ゆる(す)",
+    "meaning": "listen, headstrong, naughty, careful inquiry"
+  },
+  {
+    "kanji": "脱",
+    "onyomi": "datsu",
+    "katakana": "ダツ",
+    "kunyomi": "nu(gu)",
+    "hiragana": "ぬ(ぐ)",
+    "meaning": "undress, removing, escape from, get rid of, be left out, take off"
+  },
+  {
+    "kanji": "級",
+    "onyomi": "kyuu",
+    "katakana": "キュウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "class, rank, grade"
+  },
+  {
+    "kanji": "博",
+    "onyomi": "haku, baku",
+    "katakana": "ハク、バク",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "Dr., command, esteem, Ph.D."
+  },
+  {
+    "kanji": "締",
+    "onyomi": "tei",
+    "katakana": "テイ",
+    "kunyomi": "shi(maru), -shi(me), -ji(me)",
+    "hiragana": "し(まる)、 -し(め)、 -じ(め)",
+    "meaning": "tighten, tie, shut, lock, fasten"
+  },
+  {
+    "kanji": "救",
+    "onyomi": "kyuu",
+    "katakana": "キュウ",
+    "kunyomi": "suku(u)",
+    "hiragana": "すく(う)",
+    "meaning": "salvation, save, help, rescue, reclaim"
+  },
+  {
+    "kanji": "執",
+    "onyomi": "shitsu, shuu",
+    "katakana": "シツ、 シュウ",
+    "kunyomi": "to(ru)",
+    "hiragana": "と(る)",
+    "meaning": "tenacious, take hold, grasp, take to heart"
+  },
+  {
+    "kanji": "房",
+    "onyomi": "bou",
+    "katakana": "ボウ",
+    "kunyomi": "fusa",
+    "hiragana": "ふさ",
+    "meaning": "tassel, tuft, fringe, bunch, lock (hair), segment (orange), house, room"
+  },
+  {
+    "kanji": "撤",
+    "onyomi": "tetsu",
+    "katakana": "テツ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "remove, withdraw, disarm, dismantle, reject, exclude"
+  },
+  {
+    "kanji": "削",
+    "onyomi": "saku",
+    "katakana": "サク",
+    "kunyomi": "kezu(ru), hatsu(ru), so(gu)",
+    "hiragana": "けず(る)、 はつ(る)、 そ(ぐ)",
+    "meaning": "plane, sharpen, whittle, pare, shave"
+  },
+  {
+    "kanji": "密",
+    "onyomi": "mitsu",
+    "katakana": "ミツ",
+    "kunyomi": "hiso(ka)",
+    "hiragana": "ひそ(か)",
+    "meaning": "secrecy, density (pop), minuteness, carefulness"
+  },
+  {
+    "kanji": "措",
+    "onyomi": "so",
+    "katakana": "ソ",
+    "kunyomi": "o(ku)",
+    "hiragana": "お(く)",
+    "meaning": "set aside, give up, suspend, discontinue, lay aside, except"
+  },
+  {
+    "kanji": "志",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "kokoroza(su), kokorozashi",
+    "hiragana": "こころざ(す)、 こころざし",
+    "meaning": "intention, plan, resolve, aspire, motive, hopes, shilling"
+  },
+  {
+    "kanji": "載",
+    "onyomi": "sai",
+    "katakana": "サイ",
+    "kunyomi": "no(seru)",
+    "hiragana": "の(せる)",
+    "meaning": "ride, board, get on, place, spread, 10**44, record, publish"
+  },
+  {
+    "kanji": "陣",
+    "onyomi": "jin",
+    "katakana": "ジン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "camp, battle array, ranks, position, sudden, brief time"
+  },
+  {
+    "kanji": "我",
+    "onyomi": "ga",
+    "katakana": "ガ",
+    "kunyomi": "ware, wa, wa(ga)-, waga-",
+    "hiragana": "われ、 わ、 わ(が)-、 わが-",
+    "meaning": "ego, I, selfish, our, oneself"
+  },
+  {
+    "kanji": "為",
+    "onyomi": "i",
+    "katakana": "イ",
+    "kunyomi": "tame, na(ru), su(ru), tari, tsuku(ru), nari",
+    "hiragana": "ため、 な(る)、 す(る)、 たり、 つく(る)、 なり",
+    "meaning": "do, change, make, benefit, welfare, be of use, reach to, try, practice, cost, serve as, good, advantage, as a result of"
+  },
+  {
+    "kanji": "抑",
+    "onyomi": "yoku",
+    "katakana": "ヨク",
+    "kunyomi": "osa(eru)",
+    "hiragana": "おさ(える)",
+    "meaning": "repress, well, now, in the first place, push, shove, press, seal, do in spite of"
+  },
+  {
+    "kanji": "幕",
+    "onyomi": "maku, baku",
+    "katakana": "マク、 バク",
+    "kunyomi": "tobari",
+    "hiragana": "とばり",
+    "meaning": "curtain, bunting, act of play"
+  },
+  {
+    "kanji": "染",
+    "onyomi": "sen",
+    "katakana": "セン",
+    "kunyomi": "so(meru), shi(meru)",
+    "hiragana": "そ(める)、 し(みる)",
+    "meaning": "dye, color, paint, stain, print"
+  },
+  {
+    "kanji": "奈",
+    "onyomi": "na, nai, dai",
+    "katakana": "ナ、 ナイ、 ダイ",
+    "kunyomi": "ikan, karanashi",
+    "hiragana": "いかん、 からなし",
+    "meaning": "Nara, what?"
+  },
+  {
+    "kanji": "傷",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "kizu, ita(mu)",
+    "hiragana": "きず、 いた(む)",
+    "meaning": "wound, hurt, injure, impair, pain, injury, cut, gash, scar, weak point"
+  },
+  {
+    "kanji": "択",
+    "onyomi": "taku",
+    "katakana": "タク",
+    "kunyomi": "era(bu)",
+    "hiragana": "えら(ぶ)",
+    "meaning": "choose, select, elect, prefer"
+  },
+  {
+    "kanji": "秀",
+    "onyomi": "shuu",
+    "katakana": "シュウ",
+    "kunyomi": "hii(deru)",
+    "hiragana": "ひい(でる)",
+    "meaning": "excel, excellence, beauty, surpass"
+  },
+  {
+    "kanji": "徴",
+    "onyomi": "chou, chi",
+    "katakana": "チョウ、 チ",
+    "kunyomi": "shirushi",
+    "hiragana": "しるし",
+    "meaning": "indications, sign, omen, symptom, collect, seek, refer to, question"
+  },
+  {
+    "kanji": "弾",
+    "onyomi": "dan, tan",
+    "katakana": "ダン、 タン",
+    "kunyomi": "hi(ku), -hi(ki), hazu(mu), tama, haji(ku), tada(su)",
+    "hiragana": "ひ(く)、 -ひ(き)、 はず(む)、 たま、 はじ(く)、 ただ(す)",
+    "meaning": "bullet, twang, flip, snap"
+  },
+  {
+    "kanji": "償",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "tsuguna(u)",
+    "hiragana": "つぐな(う)",
+    "meaning": "reparation, make up for, recompense, redeem"
+  },
+  {
+    "kanji": "功",
+    "onyomi": "kou, ko",
+    "katakana": "コウ、 ク",
+    "kunyomi": "isao",
+    "hiragana": "いさお",
+    "meaning": "achievement, merits, success, honor, credit"
+  },
+  {
+    "kanji": "拠",
+    "onyomi": "kyo, ko",
+    "katakana": "キョ、 コ",
+    "kunyomi": "yo(ru)",
+    "hiragana": "よ(る)",
+    "meaning": "foothold, based on, follow, therefore"
+  },
+  {
+    "kanji": "秘",
+    "onyomi": "hi",
+    "katakana": "ヒ",
+    "kunyomi": "hi(meru), hiso(ka), kaku(su)",
+    "hiragana": "ひ(める)、 ひそ(か)、 かく(す)",
+    "meaning": "secret, conceal"
+  },
+  {
+    "kanji": "拒",
+    "onyomi": "kyo, go",
+    "katakana": "キョ、 ゴ",
+    "kunyomi": "koba(mu)",
+    "hiragana": "こば(む)",
+    "meaning": "repel, refuse, reject, decline"
+  },
+  {
+    "kanji": "刑",
+    "onyomi": "kei",
+    "katakana": "ケイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "punish, penalty, sentence, punishment"
+  },
+  {
+    "kanji": "塚",
+    "onyomi": "chou",
+    "katakana": "チョウ",
+    "kunyomi": "tsuka, -dzuka",
+    "hiragana": "つか、 -づか",
+    "meaning": "hillock, mound"
+  },
+  {
+    "kanji": "致",
+    "onyomi": "chi",
+    "katakana": "チ",
+    "kunyomi": "ita(su)",
+    "hiragana": "いた(す)",
+    "meaning": "doth, do, send, forward, cause, exert, incur, engage"
+  },
+  {
+    "kanji": "繰",
+    "onyomi": "sou",
+    "katakana": "ソウ",
+    "kunyomi": "ku(ru)",
+    "hiragana": "く(る)",
+    "meaning": "winding, reel, spin, turn (pages), look up, refer to"
+  },
+  {
+    "kanji": "尾",
+    "onyomi": "bi",
+    "katakana": "ビ",
+    "kunyomi": "o",
+    "hiragana": "お",
+    "meaning": "tail, end, counter for fish, lower slope of mountain"
+  },
+  {
+    "kanji": "描",
+    "onyomi": "byou",
+    "katakana": "ビョウ",
+    "kunyomi": "ega(ku), ka(ku)",
+    "hiragana": "えが(く)、 か(く)",
+    "meaning": "sketch, compose, write, draw, paint"
+  },
+  {
+    "kanji": "鈴",
+    "onyomi": "rei, rin",
+    "katakana": "レイ、 リン",
+    "kunyomi": "suzu",
+    "hiragana": "すず",
+    "meaning": "small bell, buzzer"
+  },
+  {
+    "kanji": "盤",
+    "onyomi": "ban",
+    "katakana": "バン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "tray, shallow bowl, platter, tub, board, phonograph record"
+  },
+  {
+    "kanji": "項",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "unaji",
+    "hiragana": "うなじ",
+    "meaning": "paragraph, nape of neck, clause, item, term (expression)"
+  },
+  {
+    "kanji": "喪",
+    "onyomi": "sou",
+    "katakana": "ソウ",
+    "kunyomi": "mo",
+    "hiragana": "も",
+    "meaning": "miss, mourning"
+  },
+  {
+    "kanji": "伴",
+    "onyomi": "han, ban",
+    "katakana": "ハン、 バン",
+    "kunyomi": "tomona(u)",
+    "hiragana": "ともな(う)",
+    "meaning": "consort, accompany, bring with, companion"
+  },
+  {
+    "kanji": "養",
+    "onyomi": "you, ryou",
+    "katakana": "ヨウ、 リョウ",
+    "kunyomi": "yashina(u)",
+    "hiragana": "やしな(う)",
+    "meaning": "foster, bring up, rear, develop, nurture"
+  },
+  {
+    "kanji": "懸",
+    "onyomi": "ken, ke",
+    "katakana": "ケン、 ケ",
+    "kunyomi": "ka(keru)",
+    "hiragana": "か(ける)",
+    "meaning": "state of suspension, hang, depend, consult, distant, far apart"
+  },
+  {
+    "kanji": "街",
+    "onyomi": "gai, kai",
+    "katakana": "ガイ、 カイ",
+    "kunyomi": "machi",
+    "hiragana": "まち",
+    "meaning": "boulevard, street, town"
+  },
+  {
+    "kanji": "契",
+    "onyomi": "kei",
+    "katakana": "ケイ",
+    "kunyomi": "chigi(ru)",
+    "hiragana": "ちぎ(る)",
+    "meaning": "pledge, promise, vow"
+  },
+  {
+    "kanji": "掲",
+    "onyomi": "kei",
+    "katakana": "ケイ",
+    "kunyomi": "kaka(geru)",
+    "hiragana": "かか(げる)",
+    "meaning": "put up (a notice), put up, hoist, display, hang out, publish, describe"
+  },
+  {
+    "kanji": "躍",
+    "onyomi": "yaku",
+    "katakana": "ヤク",
+    "kunyomi": "odo(ru)",
+    "hiragana": "おど(る)",
+    "meaning": "leap, dance, skip"
+  },
+  {
+    "kanji": "棄",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "su(teru)",
+    "hiragana": "す(てる)",
+    "meaning": "abandon, throw away, discard, resign, reject, sacrifice"
+  },
+  {
+    "kanji": "邸",
+    "onyomi": "tei",
+    "katakana": "テイ",
+    "kunyomi": "yashiki",
+    "hiragana": "やしき",
+    "meaning": "residence, mansion"
+  },
+  {
+    "kanji": "縮",
+    "onyomi": "shuku",
+    "katakana": "シュク",
+    "kunyomi": "chidji(mu)",
+    "hiragana": "ちぢ(む)",
+    "meaning": "shrink, contract, shrivel, wrinkle, reduce"
+  },
+  {
+    "kanji": "還",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "kae(ru)",
+    "hiragana": "かえ(る)",
+    "meaning": "send back, return"
+  },
+  {
+    "kanji": "属",
+    "onyomi": "zoku, shoku",
+    "katakana": "ゾク、 ショク",
+    "kunyomi": "sakan, tsuku, yakara",
+    "hiragana": "さかん、 つく、 やから",
+    "meaning": "belong, genus, subordinate official, affiliated"
+  },
+  {
+    "kanji": "慮",
+    "onyomi": "ryo",
+    "katakana": "リョ",
+    "kunyomi": "omonpaku(ru)",
+    "hiragana": "おもんぱく(る)",
+    "meaning": "prudence, thought, concern, consider, deliberate, fear"
+  },
+  {
+    "kanji": "枠",
+    "onyomi": "",
+    "katakana": "",
+    "kunyomi": "waku",
+    "hiragana": "わく",
+    "meaning": "frame, framework, spindle, spool, bounding-box"
+  },
+  {
+    "kanji": "恵",
+    "onyomi": "kei, e",
+    "katakana": "ケイ、 エ",
+    "kunyomi": "megu(mu)",
+    "hiragana": "めぐ(む)",
+    "meaning": "favor, blessing, grace, kindness"
+  },
+  {
+    "kanji": "露",
+    "onyomi": "ro, rou",
+    "katakana": "ロ、 ロウ",
+    "kunyomi": "tsuyu",
+    "hiragana": "つゆ",
+    "meaning": "dew, tears, expose, Russia"
+  },
+  {
+    "kanji": "沖",
+    "onyomi": "chuu",
+    "katakana": "チュウ",
+    "kunyomi": "oki, okitsu, chuu(suru), waku",
+    "hiragana": "おき、 おきつ、 ちゅう(する)、 わく",
+    "meaning": "open sea, offing, rise high into sky"
+  },
+  {
+    "kanji": "緩",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "yuru(i)",
+    "hiragana": "ゆる(い)",
+    "meaning": "slacken, loosen, relax, lessen, be moderate, ease"
+  },
+  {
+    "kanji": "節",
+    "onyomi": "setsu, sechi",
+    "katakana": "セツ、 セチ",
+    "kunyomi": "fushi, -bushi, notto",
+    "hiragana": "ふし、 -ぶし、 のっと",
+    "meaning": "node, season, period, occasion, verse, clause, stanza, honor"
+  },
+  {
+    "kanji": "需",
+    "onyomi": "ju",
+    "katakana": "ジュ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "demand, request, need"
+  },
+  {
+    "kanji": "射",
+    "onyomi": "sha",
+    "katakana": "シャ",
+    "kunyomi": "i(ru), sa(su), u(tsu)",
+    "hiragana": "い(る)、 さ(す)、 う(つ)",
+    "meaning": "shoot, shine into, onto, archery"
+  },
+  {
+    "kanji": "購",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "subscription, buy"
+  },
+  {
+    "kanji": "揮",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "furu(u)",
+    "hiragana": "ふる(う)",
+    "meaning": "brandish, wave, wag, swing, shake"
+  },
+  {
+    "kanji": "充",
+    "onyomi": "juu",
+    "katakana": "ジュウ",
+    "kunyomi": "a(teru), mi(tasu)",
+    "hiragana": "あ(てる)、 み(たす)",
+    "meaning": "allot, fill"
+  },
+  {
+    "kanji": "貢",
+    "onyomi": "kou, ku",
+    "katakana": "コウ、 ク",
+    "kunyomi": "mitsu(gu)",
+    "hiragana": "みつ(ぐ)",
+    "meaning": "tribute, support, finance"
+  },
+  {
+    "kanji": "鹿",
+    "onyomi": "roku",
+    "katakana": "ロク",
+    "kunyomi": "shika, ka",
+    "hiragana": "しか、 か",
+    "meaning": "deer"
+  },
+  {
+    "kanji": "却",
+    "onyomi": "kyaku",
+    "katakana": "キャク",
+    "kunyomi": "kae(tte), shirizo(ku)",
+    "hiragana": "かえ(って)、 しりぞ(く)",
+    "meaning": "instead, on the contrary, rather, step back, withdraw, retreat"
+  },
+  {
+    "kanji": "端",
+    "onyomi": "tan",
+    "katakana": "タン",
+    "kunyomi": "hashi, ha, hata, -bata, hana",
+    "hiragana": "はし、 は、 はた、 -ばた、 はな",
+    "meaning": "edge, origin, end, point, border, verge, cape"
+  },
+  {
+    "kanji": "賃",
+    "onyomi": "chin",
+    "katakana": "チン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "fare, fee, hire, rent, wages, charge"
+  },
+  {
+    "kanji": "獲",
+    "onyomi": "kaku",
+    "katakana": "カク",
+    "kunyomi": "e(ru)",
+    "hiragana": "え(る)",
+    "meaning": "seize, get, find, earn, acquire, can, may, able to"
+  },
+  {
+    "kanji": "郡",
+    "onyomi": "gun",
+    "katakana": "グン",
+    "kunyomi": "koori",
+    "hiragana": "こおり",
+    "meaning": "county, district"
+  },
+  {
+    "kanji": "併",
+    "onyomi": "hei",
+    "katakana": "ヘイ",
+    "kunyomi": "awa(seru)",
+    "hiragana": "あわ(せる)",
+    "meaning": "join, get together, unite, collective"
+  },
+  {
+    "kanji": "徹",
+    "onyomi": "tetsu",
+    "katakana": "テツ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "penetrate, clear, pierce, strike home, sit up (all night)"
+  },
+  {
+    "kanji": "貴",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "tatto(i), touto(i)",
+    "hiragana": "たっと(い)、 とうと(い)",
+    "meaning": "precious, value, prize, esteem, honor"
+  },
+  {
+    "kanji": "埼",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "saki, sai, misaki",
+    "hiragana": "さき、 さい、 みさき",
+    "meaning": "cape, spit, promontory"
+  },
+  {
+    "kanji": "衝",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "tsu(ku)",
+    "hiragana": "つ(く)",
+    "meaning": "collide, brunt, highway, opposition (astronomy), thrust, pierce, stab, prick"
+  },
+  {
+    "kanji": "焦",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "ko(geru), ase(ru), ji(reru)",
+    "hiragana": "こ(げる)、 あせ(る)、 じ(れる)",
+    "meaning": "char, hurry, impatient, irritate, burn, scorch, singe"
+  },
+  {
+    "kanji": "奪",
+    "onyomi": "datsu",
+    "katakana": "ダツ",
+    "kunyomi": "uba(u)",
+    "hiragana": "うば(う)",
+    "meaning": "rob, take by force, snatch away, dispossess, plunder, usurp"
+  },
+  {
+    "kanji": "災",
+    "onyomi": "sai",
+    "katakana": "サイ",
+    "kunyomi": "wazawa(i)",
+    "hiragana": "わざわ(い)",
+    "meaning": "disaster, calamity, woe, curse, evil"
+  },
+  {
+    "kanji": "浦",
+    "onyomi": "ho",
+    "katakana": "ホ",
+    "kunyomi": "ura",
+    "hiragana": "うら",
+    "meaning": "bay, creek, inlet, gulf, beach, seacoast"
+  },
+  {
+    "kanji": "析",
+    "onyomi": "seki",
+    "katakana": "セキ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "chop, divide, tear, analyze"
+  },
+  {
+    "kanji": "譲",
+    "onyomi": "jou",
+    "katakana": "ジョウ",
+    "kunyomi": "yuzu(ru)",
+    "hiragana": "ゆず(る)",
+    "meaning": "defer, turnover, transfer, convey"
+  },
+  {
+    "kanji": "称",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "tata(eru), tona(eru), a(geru), kana(u), haka(ri), home(ru)",
+    "hiragana": "たた(える)、 とな(える)、 あ(げる)、 かな(う)、 はか(り)、 ほめ(る)",
+    "meaning": "appellation, praise, admire, name, title, fame"
+  },
+  {
+    "kanji": "納",
+    "onyomi": "nou, natsu, na, nan, tou",
+    "katakana": "ノウ、 ナッ、 ナ、 ナン、 トウ",
+    "kunyomi": "osa(meru), -osa(meru)",
+    "hiragana": "おさ(める)、 -おさ(める)",
+    "meaning": "settlement, obtain, reap, pay, supply, store"
+  },
+  {
+    "kanji": "樹",
+    "onyomi": "ju",
+    "katakana": "ジュ",
+    "kunyomi": "ki",
+    "hiragana": "き",
+    "meaning": "timber, trees, wood, establish, set up"
+  },
+  {
+    "kanji": "挑",
+    "onyomi": "chou",
+    "katakana": "チョウ",
+    "kunyomi": "ido(mu)",
+    "hiragana": "いど(む)",
+    "meaning": "challenge, contend for, make love to"
+  },
+  {
+    "kanji": "誘",
+    "onyomi": "yuu",
+    "katakana": "ユウ",
+    "kunyomi": "saso(u), izana(u)",
+    "hiragana": "さそ(う)、 いざな(う)",
+    "meaning": "entice, lead, tempt, invite, ask, call for, seduce, allure"
+  },
+  {
+    "kanji": "紛",
+    "onyomi": "fun",
+    "katakana": "フン",
+    "kunyomi": "magi(reru), -magi(re)",
+    "hiragana": "まぎ(れる)、 -まぎ(れ)",
+    "meaning": "distract, be mistaken for, go astray, divert"
+  },
+  {
+    "kanji": "至",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "ita(ru)",
+    "hiragana": "いた(る)",
+    "meaning": "climax, arrive, proceed, reach, attain, result in"
+  },
+  {
+    "kanji": "宗",
+    "onyomi": "shuu, sou",
+    "katakana": "シュウ、 ソウ",
+    "kunyomi": "mune",
+    "hiragana": "むね",
+    "meaning": "religion, sect, denomination, main point, origin, essence"
+  },
+  {
+    "kanji": "促",
+    "onyomi": "soku",
+    "katakana": "ソク",
+    "kunyomi": "unaga(su)",
+    "hiragana": "うなが(す)",
+    "meaning": "stimulate, urge, press, demand, incite"
+  },
+  {
+    "kanji": "慎",
+    "onyomi": "shin",
+    "katakana": "シン",
+    "kunyomi": "tsutsushi(mu), tsutsu(mashii), tsutsushi",
+    "hiragana": "つつし(む)、 つつ(ましい)、 つつし",
+    "meaning": "humility, be careful, discreet, prudent"
+  },
+  {
+    "kanji": "控",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "hika(eru)",
+    "hiragana": "ひか(える)",
+    "meaning": "withdraw, draw in, hold back, refrain from, be moderate"
+  },
+  {
+    "kanji": "智",
+    "onyomi": "chi",
+    "katakana": "チ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "wisdom, intellect, reason"
+  },
+  {
+    "kanji": "握",
+    "onyomi": "aku",
+    "katakana": "アク",
+    "kunyomi": "nigi(ru)",
+    "hiragana": "にぎ(る)",
+    "meaning": "grip, hold, mould sushi, bribe"
+  },
+  {
+    "kanji": "宙",
+    "onyomi": "chuu",
+    "katakana": "チュウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "mid-air, air, space, sky, memorization, interval of time"
+  },
+  {
+    "kanji": "俊",
+    "onyomi": "shun",
+    "katakana": "シュン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "sagacious, genius, excellence"
+  },
+  {
+    "kanji": "銭",
+    "onyomi": "sen, zen",
+    "katakana": "セン、 ゼン",
+    "kunyomi": "zeni, suki",
+    "hiragana": "ぜに、 すき",
+    "meaning": "coin, .01 yen, money"
+  },
+  {
+    "kanji": "渋",
+    "onyomi": "juu, shuu",
+    "katakana": "ジュウ、 シュウ",
+    "kunyomi": "shibu, shibu(i)",
+    "hiragana": "しぶ、 しぶ(い)",
+    "meaning": "astringent, hesitate, reluctant, have diarrhea"
+  },
+  {
+    "kanji": "銃",
+    "onyomi": "juu",
+    "katakana": "ジュウ",
+    "kunyomi": "tsutsu",
+    "hiragana": "つつ",
+    "meaning": "gun, arms"
+  },
+  {
+    "kanji": "操",
+    "onyomi": "sou, san",
+    "katakana": "ソウ、 サン",
+    "kunyomi": "misao, ayatsu(ru)",
+    "hiragana": "みさお、 あやつ(る)",
+    "meaning": "maneuver, manipulate, operate, steer, chastity, virginity, fidelity"
+  },
+  {
+    "kanji": "携",
+    "onyomi": "kei",
+    "katakana": "ケイ",
+    "kunyomi": "tazusa(eru)",
+    "hiragana": "たずさ(える)",
+    "meaning": "portable, carry (in hand), armed with, bring along"
+  },
+  {
+    "kanji": "診",
+    "onyomi": "shin",
+    "katakana": "シン",
+    "kunyomi": "mi(ru)",
+    "hiragana": "み(る)",
+    "meaning": "checkup, seeing, diagnose, examine"
+  },
+  {
+    "kanji": "託",
+    "onyomi": "taku",
+    "katakana": "タク",
+    "kunyomi": "kakotsu(keru), kako(tsu)",
+    "hiragana": "かこつ(ける)、 かこ(つ)",
+    "meaning": "consign, requesting, entrusting with, pretend, hint"
+  },
+  {
+    "kanji": "撮",
+    "onyomi": "satsu",
+    "katakana": "サツ",
+    "kunyomi": "to(ru), tsuma(mu), -do(ri)",
+    "hiragana": "と(る)、 つま(む)、 -ど(り)",
+    "meaning": "snapshot, take pictures"
+  },
+  {
+    "kanji": "誕",
+    "onyomi": "tan",
+    "katakana": "タン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "nativity, be born, declension, lie, be arbitrary"
+  },
+  {
+    "kanji": "侵",
+    "onyomi": "shin",
+    "katakana": "シン",
+    "kunyomi": "oka(su)",
+    "hiragana": "おか(す)",
+    "meaning": "encroach, invade, raid, trespass, violate"
+  },
+  {
+    "kanji": "括",
+    "onyomi": "katsu",
+    "katakana": "カツ",
+    "kunyomi": "kuku(ru)",
+    "hiragana": "くく(る)",
+    "meaning": "fasten, tie up, arrest, constrict"
+  },
+  {
+    "kanji": "謝",
+    "onyomi": "sha",
+    "katakana": "シャ",
+    "kunyomi": "ayama(ru)",
+    "hiragana": "あやま(る)",
+    "meaning": "apologize, thank, refuse"
+  },
+  {
+    "kanji": "孝",
+    "onyomi": "kou, kyou",
+    "katakana": "コウ、 キョウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "filial piety, child's respect"
+  },
+  {
+    "kanji": "駆",
+    "onyomi": "ku",
+    "katakana": "ク",
+    "kunyomi": "ka(keru)",
+    "hiragana": "か(ける)",
+    "meaning": "drive, run, gallop, advance, inspire, impel"
+  },
+  {
+    "kanji": "透",
+    "onyomi": "tou",
+    "katakana": "トウ",
+    "kunyomi": "su(ku), tou(ru)",
+    "hiragana": "す(く)、 とう(る)",
+    "meaning": "transparent, permeate, filter, penetrate"
+  },
+  {
+    "kanji": "津",
+    "onyomi": "shin",
+    "katakana": "シン",
+    "kunyomi": "tsu",
+    "hiragana": "つ",
+    "meaning": "haven, port, harbor, ferry"
+  },
+  {
+    "kanji": "壁",
+    "onyomi": "heki",
+    "katakana": "ヘキ",
+    "kunyomi": "kabe",
+    "hiragana": "かべ",
+    "meaning": "wall, lining (stomach), fence"
+  },
+  {
+    "kanji": "稲",
+    "onyomi": "tou, te",
+    "katakana": "トウ、 テ",
+    "kunyomi": "ine, ina-",
+    "hiragana": "いね、 いな-",
+    "meaning": "rice plant"
+  },
+  {
+    "kanji": "仮",
+    "onyomi": "ka, ke",
+    "katakana": "カ、 ケ",
+    "kunyomi": "kari, kari-",
+    "hiragana": "かり、 かり-",
+    "meaning": "sham, temporary, interim, assumed (name), informal"
+  },
+  {
+    "kanji": "裂",
+    "onyomi": "retsu",
+    "katakana": "レツ",
+    "kunyomi": "sa(ku), -gi(re)",
+    "hiragana": "さ(く)、 -ぎ(れ)",
+    "meaning": "split, rend, tear"
+  },
+  {
+    "kanji": "敏",
+    "onyomi": "bin",
+    "katakana": "ビン",
+    "kunyomi": "satoi",
+    "hiragana": "さとい",
+    "meaning": "cleverness, agile, alert"
+  },
+  {
+    "kanji": "是",
+    "onyomi": "ze, shi",
+    "katakana": "ゼ、 シ",
+    "kunyomi": "kore, kono, koko",
+    "hiragana": "これ、 この、 ここ",
+    "meaning": "just so, this, right, justice"
+  },
+  {
+    "kanji": "排",
+    "onyomi": "hai",
+    "katakana": "ハイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "repudiate, exclude, expel, reject, line up, arrange"
+  },
+  {
+    "kanji": "裕",
+    "onyomi": "yuu",
+    "katakana": "ユウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "abundant, rich, fertile"
+  },
+  {
+    "kanji": "堅",
+    "onyomi": "ken",
+    "katakana": "ケン",
+    "kunyomi": "kata(i), -gata(i)",
+    "hiragana": "かた(い)、 -がた(い)",
+    "meaning": "strict, hard, solid, tough, tight, reliable"
+  },
+  {
+    "kanji": "訳",
+    "onyomi": "yaku",
+    "katakana": "ヤク",
+    "kunyomi": "wake",
+    "hiragana": "わけ",
+    "meaning": "translate, reason, circumstance, case"
+  },
+  {
+    "kanji": "芝",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "shiba",
+    "hiragana": "しば",
+    "meaning": "turf, lawn"
+  },
+  {
+    "kanji": "綱",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "tsuna",
+    "hiragana": "つな",
+    "meaning": "hawser, class (genus), rope, cord, cable"
+  },
+  {
+    "kanji": "典",
+    "onyomi": "ten, den",
+    "katakana": "テン、 デン",
+    "kunyomi": "fumi, nori",
+    "hiragana": "ふみ、 のり",
+    "meaning": "code, ceremony, law, rule"
+  },
+  {
+    "kanji": "賀",
+    "onyomi": "ga",
+    "katakana": "ガ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "congratulations, joy"
+  },
+  {
+    "kanji": "扱",
+    "onyomi": "sou, kyuu",
+    "katakana": "ソウ、 キュウ",
+    "kunyomi": "atsuka(i), ko(ku)",
+    "hiragana": "あつか(い)、 こ(く)",
+    "meaning": "handle, entertain, thresh, strip"
+  },
+  {
+    "kanji": "顧",
+    "onyomi": "ko",
+    "katakana": "コ",
+    "kunyomi": "kaeri(miru)",
+    "hiragana": "かえり(みる)",
+    "meaning": "look back, review, examine oneself, turn around"
+  },
+  {
+    "kanji": "弘",
+    "onyomi": "kou, gu",
+    "katakana": "コウ、 グ",
+    "kunyomi": "hiro(i)",
+    "hiragana": "ひろ(い)",
+    "meaning": "vast, broad, wide"
+  },
+  {
+    "kanji": "看",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "mi(ru)",
+    "hiragana": "み(る)",
+    "meaning": "watch over, see"
+  },
+  {
+    "kanji": "訟",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "sue, accuse"
+  },
+  {
+    "kanji": "戒",
+    "onyomi": "kai",
+    "katakana": "カイ",
+    "kunyomi": "imashi(meru)",
+    "hiragana": "いまし(める)",
+    "meaning": "commandment"
+  },
+  {
+    "kanji": "祉",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "welfare, happiness"
+  },
+  {
+    "kanji": "誉",
+    "onyomi": "yo",
+    "katakana": "ヨ",
+    "kunyomi": "homa(re), ho(meru)",
+    "hiragana": "ほま(れ)、 ほ(める)",
+    "meaning": "reputation, praise, honor, glory"
+  },
+  {
+    "kanji": "歓",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "yoroko(bu)",
+    "hiragana": "よろこ(ぶ)",
+    "meaning": "delight, joy"
+  },
+  {
+    "kanji": "奏",
+    "onyomi": "sou",
+    "katakana": "ソウ",
+    "kunyomi": "kana(deru)",
+    "hiragana": "かな(でる)",
+    "meaning": "play music, speak to a ruler, complete"
+  },
+  {
+    "kanji": "勧",
+    "onyomi": "kan, ken",
+    "katakana": "カン、 ケン",
+    "kunyomi": "susu(meru)",
+    "hiragana": "すす(める)",
+    "meaning": "persuade, recommend, advise, encourage, offer"
+  },
+  {
+    "kanji": "騒",
+    "onyomi": "sou",
+    "katakana": "ソウ",
+    "kunyomi": "sawa(gu), urei",
+    "hiragana": "さわ(ぐ)、 うれい",
+    "meaning": "boisterous, make noise, clamor, disturb, excite"
+  },
+  {
+    "kanji": "閥",
+    "onyomi": "batsu",
+    "katakana": "バツ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "clique, lineage, pedigree, faction, clan"
+  },
+  {
+    "kanji": "甲",
+    "onyomi": "kou, kan",
+    "katakana": "コウ、 カン",
+    "kunyomi": "kinoe",
+    "hiragana": "きのえ",
+    "meaning": "armor, high (voice), A grade, first class, former, instep, carapace"
+  },
+  {
+    "kanji": "縄",
+    "onyomi": "jou",
+    "katakana": "ジョウ",
+    "kunyomi": "nawa, tada(su)",
+    "hiragana": "なわ、 ただ(す)",
+    "meaning": "straw rope, cord"
+  },
+  {
+    "kanji": "郷",
+    "onyomi": "kyou, gou",
+    "katakana": "キョウ、 ゴウ",
+    "kunyomi": "sato",
+    "hiragana": "さと",
+    "meaning": "home town, village, native place, district"
+  },
+  {
+    "kanji": "揺",
+    "onyomi": "you",
+    "katakana": "ヨウ",
+    "kunyomi": "yu(reru), ugo(ku)",
+    "hiragana": "ゆ(れる)、 うご(く)",
+    "meaning": "swing, shake, sway, rock, tremble, vibrate"
+  },
+  {
+    "kanji": "免",
+    "onyomi": "men",
+    "katakana": "メン",
+    "kunyomi": "manuka(reru), manuga(reru)",
+    "hiragana": "まぬか(れる)、 まぬが(れる)",
+    "meaning": "excuse, dismissal"
+  },
+  {
+    "kanji": "既",
+    "onyomi": "ki",
+    "katakana": "キ",
+    "kunyomi": "sude(ni)",
+    "hiragana": "すで(に)",
+    "meaning": "previously, already, long ago"
+  },
+  {
+    "kanji": "薦",
+    "onyomi": "sen",
+    "katakana": "セン",
+    "kunyomi": "susu(meru)",
+    "hiragana": "すす(める)",
+    "meaning": "recommend, mat, advise, encourage, offer"
+  },
+  {
+    "kanji": "隣",
+    "onyomi": "rin",
+    "katakana": "リン",
+    "kunyomi": "tona(ru), tonari",
+    "hiragana": "とな(る)、 となり",
+    "meaning": "neighboring"
+  },
+  {
+    "kanji": "華",
+    "onyomi": "ka, ke",
+    "katakana": "カ、 ケ",
+    "kunyomi": "hana",
+    "hiragana": "はな",
+    "meaning": "splendor, flower, petal, shine, luster, ostentatious, showy, gay, gorgeous"
+  },
+  {
+    "kanji": "範",
+    "onyomi": "han",
+    "katakana": "ハン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "pattern, example, model"
+  },
+  {
+    "kanji": "隠",
+    "onyomi": "in, on",
+    "katakana": "イン、 オン",
+    "kunyomi": "kaku(su), yo(ru)",
+    "hiragana": "かく(す)、 よ(る)",
+    "meaning": "conceal, hide, cover"
+  },
+  {
+    "kanji": "徳",
+    "onyomi": "toku",
+    "katakana": "トク",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "benevolence, virtue, goodness, commanding respect"
+  },
+  {
+    "kanji": "哲",
+    "onyomi": "tetsu",
+    "katakana": "テツ",
+    "kunyomi": "satoi, akiraka",
+    "hiragana": "さとい、 あきらか",
+    "meaning": "philosophy, clear"
+  },
+  {
+    "kanji": "杉",
+    "onyomi": "san",
+    "katakana": "サン",
+    "kunyomi": "sugi",
+    "hiragana": "すぎ",
+    "meaning": "cedar, cryptomeria"
+  },
+  {
+    "kanji": "里",
+    "onyomi": "ri",
+    "katakana": "リ",
+    "kunyomi": "sato",
+    "hiragana": "さと",
+    "meaning": "ri, village, parent's home, league"
+  },
+  {
+    "kanji": "釈",
+    "onyomi": "shaku, seki",
+    "katakana": "シャク、 セキ",
+    "kunyomi": "toku, su(teru), yuru(su)",
+    "hiragana": "とく、 す(てる)、 ゆる(す)",
+    "meaning": "explanation"
+  },
+  {
+    "kanji": "己",
+    "onyomi": "ko, ki",
+    "katakana": "コ、 キ",
+    "kunyomi": "onore, tsuchinoto, na",
+    "hiragana": "おのれ、 つちのと、 な",
+    "meaning": "self"
+  },
+  {
+    "kanji": "妥",
+    "onyomi": "da",
+    "katakana": "ダ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "gentle, peace, satisfactory, appropriate"
+  },
+  {
+    "kanji": "威",
+    "onyomi": "i",
+    "katakana": "イ",
+    "kunyomi": "odo(su)",
+    "hiragana": "おど(す)",
+    "meaning": "intimidate, dignity, majesty, menace, threaten"
+  },
+  {
+    "kanji": "豪",
+    "onyomi": "gou",
+    "katakana": "ゴウ",
+    "kunyomi": "era(i)",
+    "hiragana": "えら(い)",
+    "meaning": "overpowering, great, powerful, excelling, Australia"
+  },
+  {
+    "kanji": "熊",
+    "onyomi": "yuu",
+    "katakana": "ユウ",
+    "kunyomi": "kuma",
+    "hiragana": "くま",
+    "meaning": "bear"
+  },
+  {
+    "kanji": "滞",
+    "onyomi": "tai, tei",
+    "katakana": "タイ、 テイ",
+    "kunyomi": "todokoo(ru)",
+    "hiragana": "とどこお(る)",
+    "meaning": "stagnate, be delayed, overdue, arrears"
+  },
+  {
+    "kanji": "微",
+    "onyomi": "bi",
+    "katakana": "ビ",
+    "kunyomi": "kasu(ka)",
+    "hiragana": "かす(か)",
+    "meaning": "delicate, minuteness, insignificance"
+  },
+  {
+    "kanji": "隆",
+    "onyomi": "ryuu",
+    "katakana": "リュウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "hump, high, noble, prosperity"
+  },
+  {
+    "kanji": "症",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "symptoms, illness"
+  },
+  {
+    "kanji": "暫",
+    "onyomi": "zan",
+    "katakana": "ザン",
+    "kunyomi": "shibara(ku)",
+    "hiragana": "しばら(く)",
+    "meaning": "temporarily, a while, moment, long time"
+  },
+  {
+    "kanji": "忠",
+    "onyomi": "chuu",
+    "katakana": "チュウ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "loyalty, fidelity, faithfulness"
+  },
+  {
+    "kanji": "倉",
+    "onyomi": "sou",
+    "katakana": "ソウ",
+    "kunyomi": "kura",
+    "hiragana": "くら",
+    "meaning": "godown, warehouse, storehouse, cellar, treasury"
+  },
+  {
+    "kanji": "彦",
+    "onyomi": "gen",
+    "katakana": "ゲン",
+    "kunyomi": "hiko",
+    "hiragana": "ひこ",
+    "meaning": "lad, boy (ancient)"
+  },
+  {
+    "kanji": "肝",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "kimo",
+    "hiragana": "きも",
+    "meaning": "liver, pluck, nerve, chutzpah"
+  },
+  {
+    "kanji": "喚",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "wame(ku)",
+    "hiragana": "わめ(く)",
+    "meaning": "yell, cry, call, scream, summon"
+  },
+  {
+    "kanji": "沿",
+    "onyomi": "en",
+    "katakana": "エン",
+    "kunyomi": "so(u), -zo(i)",
+    "hiragana": "そ(う)、 -ぞ(い)",
+    "meaning": "run alongside, follow along, run along, lie along"
+  },
+  {
+    "kanji": "妙",
+    "onyomi": "myou, byou",
+    "katakana": "ミョウ、 ビョウ",
+    "kunyomi": "tae",
+    "hiragana": "たえ",
+    "meaning": "exquisite, strange, queer, mystery, miracle, excellent, delicate, charming"
+  },
+  {
+    "kanji": "唱",
+    "onyomi": "shou",
+    "katakana": "ショウ",
+    "kunyomi": "tona(eru)",
+    "hiragana": "とな(える)",
+    "meaning": "chant, recite, call upon, yell"
+  },
+  {
+    "kanji": "阿",
+    "onyomi": "a, o",
+    "katakana": "ア、 オ",
+    "kunyomi": "omone(ru), kuma",
+    "hiragana": "おもね(る)、 くま",
+    "meaning": "Africa, flatter, fawn upon, corner, nook, recess"
+  },
+  {
+    "kanji": "索",
+    "onyomi": "saku",
+    "katakana": "サク",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "cord, rope, searching, inquiring"
+  },
+  {
+    "kanji": "誠",
+    "onyomi": "sei",
+    "katakana": "セイ",
+    "kunyomi": "makoto",
+    "hiragana": "まこと",
+    "meaning": "sincerity, admonish, warn, prohibit, truth, fidelity"
+  },
+  {
+    "kanji": "襲",
+    "onyomi": "shuu",
+    "katakana": "シュウ",
+    "kunyomi": "oso(u), kasa(ne)",
+    "hiragana": "おそ(う)、 かさ(ね)",
+    "meaning": "attack, advance on, succeed to, pile, heap"
+  },
+  {
+    "kanji": "懇",
+    "onyomi": "kon",
+    "katakana": "コン",
+    "kunyomi": "nengo(ro)",
+    "hiragana": "ねんご(ろ)",
+    "meaning": "sociable, kind, courteous, hospitable, cordial"
+  },
+  {
+    "kanji": "俳",
+    "onyomi": "hai",
+    "katakana": "ハイ",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "haiku, actor"
+  },
+  {
+    "kanji": "柄",
+    "onyomi": "hei",
+    "katakana": "ヘイ",
+    "kunyomi": "gara, e, tsuka",
+    "hiragana": "がら、 え、 つか",
+    "meaning": "design, pattern, build, nature, character, handle, crank, grip, knob, shaft"
+  },
+  {
+    "kanji": "驚",
+    "onyomi": "kyou",
+    "katakana": "キョウ",
+    "kunyomi": "odoro(ku)",
+    "hiragana": "おどろ(く)",
+    "meaning": "wonder, be surprised, frightened, amazed"
+  },
+  {
+    "kanji": "麻",
+    "onyomi": "ma, maa",
+    "katakana": "マ、 マア",
+    "kunyomi": "asa",
+    "hiragana": "あさ",
+    "meaning": "hemp, flax, numb"
+  },
+  {
+    "kanji": "李",
+    "onyomi": "ri",
+    "katakana": "リ",
+    "kunyomi": "sumomo",
+    "hiragana": "すもも",
+    "meaning": "plum"
+  },
+  {
+    "kanji": "浩",
+    "onyomi": "kou",
+    "katakana": "コウ",
+    "kunyomi": "ooki(i), hiro(i)",
+    "hiragana": "おおき(い)、 ひろ(い)",
+    "meaning": "wide expanse, abundance, vigorous"
+  },
+  {
+    "kanji": "剤",
+    "onyomi": "zai, sui, sei",
+    "katakana": "ザイ、 スイ、 セイ",
+    "kunyomi": "karu, kezu(ru)",
+    "hiragana": "かる、 けず(る)",
+    "meaning": "dose, medicine, drug"
+  },
+  {
+    "kanji": "瀬",
+    "onyomi": "rai",
+    "katakana": "ライ",
+    "kunyomi": "se",
+    "hiragana": "せ",
+    "meaning": "rapids, current, torrent, shallows, shoal"
+  },
+  {
+    "kanji": "趣",
+    "onyomi": "shu",
+    "katakana": "シュ",
+    "kunyomi": "omomuki, omomu(ku)",
+    "hiragana": "おもむき、 おもむ(く)",
+    "meaning": "purport, gist, elegance, interest, proceed to, tend, become"
+  },
+  {
+    "kanji": "陥",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "ochii(ru), otoshii(reru)",
+    "hiragana": "おちい(る)、 おとしい(れる)",
+    "meaning": "collapse, fall into, cave in, fall (castle), slide into"
+  },
+  {
+    "kanji": "斎",
+    "onyomi": "sai",
+    "katakana": "サイ",
+    "kunyomi": "toki, tsutsushi(mu), monoimi, i(mu), iwa(u), itsu(ku)",
+    "hiragana": "とき、 つつし(む)、 ものいみ、 い(む)、 いわ(う)、 いつ(く)",
+    "meaning": "purification, Buddhist food, room, worship, avoid, alike"
+  },
+  {
+    "kanji": "貫",
+    "onyomi": "kan",
+    "katakana": "カン",
+    "kunyomi": "tsuranu(ku), nu(ku), nuki",
+    "hiragana": "つらぬ(く)、 ぬ(く)、 ぬき",
+    "meaning": "pierce, 8 1/3lbs, penetrate, brace"
+  },
+  {
+    "kanji": "仙",
+    "onyomi": "sen, sento",
+    "katakana": "セン、 セント",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "hermit, wizard, cent"
+  },
+  {
+    "kanji": "慰",
+    "onyomi": "i",
+    "katakana": "イ",
+    "kunyomi": "nagusa(meru)",
+    "hiragana": "なぐさ(める)",
+    "meaning": "consolation, amusement, seduce, cheer, make sport of, comfort, console"
+  },
+  {
+    "kanji": "序",
+    "onyomi": "jo",
+    "katakana": "ジョ",
+    "kunyomi": "tsui(de), tsuide",
+    "hiragana": "つい(で)、 ついで",
+    "meaning": "preface, beginning, order, precedence, occasion, chance, incidentally"
+  },
+  {
+    "kanji": "旬",
+    "onyomi": "jun, shun",
+    "katakana": "ジュン、 シュン",
+    "kunyomi": "",
+    "hiragana": "",
+    "meaning": "decameron, ten-day period, season (for specific products)"
+  },
+  {
+    "kanji": "兼",
+    "onyomi": "ken",
+    "katakana": "ケン",
+    "kunyomi": "ka(neru), -ka(neru)",
+    "hiragana": "か(ねる)、 -か(ねる)",
+    "meaning": "concurrently, and, beforehand, in advance"
+  },
+  {
+    "kanji": "聖",
+    "onyomi": "sei, shou",
+    "katakana": "セイ、 ショウ",
+    "kunyomi": "hijiri",
+    "hiragana": "ひじり",
+    "meaning": "holy, saint, sage, master, priest"
+  },
+  {
+    "kanji": "旨",
+    "onyomi": "shi",
+    "katakana": "シ",
+    "kunyomi": "mune, uma(i)",
+    "hiragana": "むね、 うま(い)",
+    "meaning": "delicious, relish, show a liking for, purport, will, clever, expert"
+  },
+  {
+    "kanji": "即",
+    "onyomi": "soku",
+    "katakana": "ソク",
+    "kunyomi": "tsu(ku), sunawa(chi)",
+    "hiragana": "つ(く)、 すなわ(ち)",
+    "meaning": "instant, namely, as is, conform, agree, adapt"
+  },
+  {
+    "kanji": "柳",
+    "onyomi": "ryuu",
+    "katakana": "リュウ",
+    "kunyomi": "yanagi",
+    "hiragana": "やなぎ",
+    "meaning": "willow"
+  },
+  {
+    "kanji": "舎",
+    "onyomi": "sha, seki",
+    "katakana": "シャ、 セキ",
+    "kunyomi": "yado(ru)",
+    "hiragana": "やど(る)",
+    "meaning": "cottage, inn, hut, house, mansion"
+  },
+  {
+    "kanji": "偽",
+    "onyomi": ["gi", "ka"],
+    "katakana": ["ギ", "カ"],
+    "kunyomi": ["itsuwa(ru)", "nise"],
+    "hiragana": ["いつわ(る)", "にせ"],
+    "meaning": "falsehood, lie, deceive, pretend, counterfeit, forgery"
+  },
+  {
+    "kanji": "較",
+    "onyomi": ["kaku", "kou"],
+    "katakana": ["カク", "コウ"],
+    "kunyomi": ["kura(beru)"],
+    "hiragana": ["くら(べる)"],
+    "meaning": "contrast, compare"
+  },
+  {
+    "kanji": "覇",
+    "onyomi": ["ha", "haku"],
+    "katakana": ["ハ", "ハク"],
+    "kunyomi": ["hatagashira"],
+    "hiragana": ["はたがしら"],
+    "meaning": "hegemony, supremacy, leadership, champion"
+  },
+  {
+    "kanji": "畑",
+    "onyomi": [],
+    "katakana": [],
+    "kunyomi": ["hata", "hatake", "-batake"],
+    "hiragana": ["はた", "はたけ", "-ばたけ"],
+    "meaning": "farm, field, garden, one's specialty, (kokuji)"
+  },
+  {
+    "kanji": "詳",
+    "onyomi": ["shou"],
+    "katakana": ["ショウ"],
+    "kunyomi": ["kuwa(shii)", "tsumabi(raka)"],
+    "hiragana": ["くわ(しい)", "つまび(らか)"],
+    "meaning": "detailed, full, minute, accurate, well-informed"
+  },
+  {
+    "kanji": "抵",
+    "onyomi": ["tei"],
+    "katakana": ["テイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "resist, reach, touch"
+  },
+  {
+    "kanji": "脅",
+    "onyomi": ["kyou"],
+    "katakana": ["キョウ"],
+    "kunyomi": ["obiya(kasu)", "odo(su)"],
+    "hiragana": ["おびや(かす)", "おど(す)"],
+    "meaning": "threaten, coerce"
+  },
+  {
+    "kanji": "茂",
+    "onyomi": ["mo"],
+    "katakana": ["モ"],
+    "kunyomi": ["shige(ru)"],
+    "hiragana": ["しげ(る)"],
+    "meaning": "overgrown, grow thick, be luxuriant"
+  },
+  {
+    "kanji": "犠",
+    "onyomi": ["gi", "ki"],
+    "katakana": ["ギ", "キ"],
+    "kunyomi": ["ikenie"],
+    "hiragana": ["いけにえ"],
+    "meaning": "sacrifice"
+  },
+  {
+    "kanji": "旗",
+    "onyomi": ["ki"],
+    "katakana": ["キ"],
+    "kunyomi": ["hata"],
+    "hiragana": ["はた"],
+    "meaning": "national flag, banner, standard"
+  },
+  {
+    "kanji": "距",
+    "onyomi": ["kyo"],
+    "katakana": ["キョ"],
+    "kunyomi": ["heda(taru)", "kedzume"],
+    "hiragana": ["へだ(たる)", "けづめ"],
+    "meaning": "long-distance, spur, fetlock"
+  },
+  {
+    "kanji": "雅",
+    "onyomi": ["ga"],
+    "katakana": ["ガ"],
+    "kunyomi": ["miya(bi)"],
+    "hiragana": ["みや(び)"],
+    "meaning": "gracious, elegant, graceful, refined"
+  },
+  {
+    "kanji": "飾",
+    "onyomi": ["shoku"],
+    "katakana": ["ショク"],
+    "kunyomi": ["kaza(ru)"],
+    "hiragana": ["かざ(る)"],
+    "meaning": "decorate, ornament, adorn, embellish"
+  },
+  {
+    "kanji": "網",
+    "onyomi": ["mou"],
+    "katakana": ["モウ"],
+    "kunyomi": ["ami"],
+    "hiragana": ["あみ"],
+    "meaning": "netting, network"
+  },
+  {
+    "kanji": "竜",
+    "onyomi": ["ryuu", "ryou", "rou"],
+    "katakana": ["リュウ", "リョウ", "ロウ"],
+    "kunyomi": ["tatsu", "ise"],
+    "hiragana": ["たつ", "いせ"],
+    "meaning": "dragon, imperial"
+  },
+  {
+    "kanji": "詩",
+    "onyomi": ["shi"],
+    "katakana": ["シ"],
+    "kunyomi": ["uta"],
+    "hiragana": ["うた"],
+    "meaning": "poem, poetry"
+  },
+  {
+    "kanji": "繁",
+    "onyomi": ["han"],
+    "katakana": ["ハン"],
+    "kunyomi": ["shige(ku)"],
+    "hiragana": ["しげ(く)"],
+    "meaning": "luxuriant, thick, overgrown, frequency, complexity, trouble"
+  },
+  {
+    "kanji": "翼",
+    "onyomi": ["yoku"],
+    "katakana": ["ヨク"],
+    "kunyomi": ["tsubasa"],
+    "hiragana": ["つばさ"],
+    "meaning": "wing, plane, flank"
+  },
+  {
+    "kanji": "茨",
+    "onyomi": ["shi", "ji"],
+    "katakana": ["シ", "ジ"],
+    "kunyomi": ["ibara", "kaya", "kusabuki"],
+    "hiragana": ["いばら", "かや", "くさぶき"],
+    "meaning": "briar, thorn"
+  },
+  {
+    "kanji": "潟",
+    "onyomi": ["seki"],
+    "katakana": ["セキ"],
+    "kunyomi": ["kata", "-gata"],
+    "hiragana": ["かた", "-がた"],
+    "meaning": "lagoon"
+  },
+  {
+    "kanji": "敵",
+    "onyomi": ["teki"],
+    "katakana": ["テキ"],
+    "kunyomi": ["kataki", "ada", "kana(u)"],
+    "hiragana": ["かたき", "あだ", "かな(う)"],
+    "meaning": "enemy, foe, opponent"
+  },
+  {
+    "kanji": "魅",
+    "onyomi": ["mi"],
+    "katakana": ["ミ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "fascination, charm, bewitch"
+  },
+  {
+    "kanji": "嫌",
+    "onyomi": ["ken", "gen"],
+    "katakana": ["ケン", "ゲン"],
+    "kunyomi": ["kira(i)", "iya"],
+    "hiragana": ["きら(い)", "いや"],
+    "meaning": "dislike, detest, hate"
+  },
+  {
+    "kanji": "斉",
+    "onyomi": ["sei", "sai"],
+    "katakana": ["セイ", "サイ"],
+    "kunyomi": ["soro(u)", "hito(shii)", "ataru", "hayai"],
+    "hiragana": ["そろ(う)", "ひと(しい)", "あたる", "はやい"],
+    "meaning": "adjusted, alike, equal, similar variety of"
+  },
+  {
+    "kanji": "敷",
+    "onyomi": ["fu"],
+    "katakana": ["フ"],
+    "kunyomi": ["shi(ku)", "-shi(ki)"],
+    "hiragana": ["し(く)", "-し(き)"],
+    "meaning": "spread, pave, sit, promulgate"
+  },
+  {
+    "kanji": "擁",
+    "onyomi": ["yoku"],
+    "katakana": ["ヨウ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "hug, embrace, possess, protect, lead"
+  },
+  {
+    "kanji": "圏",
+    "onyomi": ["ken"],
+    "katakana": ["ケン"],
+    "kunyomi": ["kako(i)"],
+    "hiragana": ["かこ(い)"],
+    "meaning": "sphere, circle, radius, range"
+  },
+  {
+    "kanji": "酸",
+    "onyomi": ["san"],
+    "katakana": ["サン"],
+    "kunyomi": ["su(i)"],
+    "hiragana": ["す(い)"],
+    "meaning": "acid, bitterness, sour, tart"
+  },
+  {
+    "kanji": "罰",
+    "onyomi": ["batsu", "bachi", "hatsu"],
+    "katakana": ["バツ", "バチ", "ハツ"],
+    "kunyomi": ["bas(suru)"],
+    "hiragana": ["ばっ(する)"],
+    "meaning": "penalty, punishment"
+  },
+  {
+    "kanji": "滅",
+    "onyomi": ["metsu"],
+    "katakana": ["メツ"],
+    "kunyomi": ["horo(biru)", "horo(bu)", "horo(basu)"],
+    "hiragana": ["ほろ(びる)", "ほろ(ぶ)", "ほろ(ぼす)"],
+    "meaning": "destroy, ruin, overthrow, perish"
+  },
+  {
+    "kanji": "礎",
+    "onyomi": ["so"],
+    "katakana": ["ソ"],
+    "kunyomi": ["ishizue"],
+    "hiragana": ["いしずえ"],
+    "meaning": "cornerstone, foundation stone"
+  },
+  {
+    "kanji": "腐",
+    "onyomi": ["fu"],
+    "katakana": ["フ"],
+    "kunyomi": ["kusa(ru)", "-kusa(ru)"],
+    "hiragana": ["くさ(る)", "-くさ(る)"],
+    "meaning": "rot, decay, sour"
+  },
+  {
+    "kanji": "脚",
+    "onyomi": ["kyaku", "kya", "kaku"],
+    "katakana": ["キャク", "キャ", "カク"],
+    "kunyomi": ["ashi"],
+    "hiragana": ["あし"],
+    "meaning": "skids, leg, undercarriage, lower part, base"
+  },
+  {
+    "kanji": "菱",
+    "onyomi": ["ryou"],
+    "katakana": ["リョウ"],
+    "kunyomi": ["hishi"],
+    "hiragana": ["ひし"],
+    "meaning": "diamond (shape), water chestnut, rhombus"
+  },
+  {
+    "kanji": "潮",
+    "onyomi": ["chou"],
+    "katakana": ["チョウ"],
+    "kunyomi": ["shio", "ushio"],
+    "hiragana": ["しお", "うしお"],
+    "meaning": "tide, salt water, opportunity"
+  },
+  {
+    "kanji": "梅",
+    "onyomi": ["bai"],
+    "katakana": ["バイ"],
+    "kunyomi": ["ume"],
+    "hiragana": ["うめ"],
+    "meaning": "plum"
+  },
+  {
+    "kanji": "尽",
+    "onyomi": ["jin", "san"],
+    "katakana": ["ジン", "サン"],
+    "kunyomi": ["tsu(kiru)", "tsu(kusu)", "-dzu(ku)", "zu(ku)"],
+    "hiragana": ["つ(きる)", "つ(くす)", "-づ(く)", "ず(く)"],
+    "meaning": "exhaust, use up, run out of, deplete, befriend, serve"
+  },
+  {
+    "kanji": "僕",
+    "onyomi": ["boku"],
+    "katakana": ["ボク"],
+    "kunyomi": ["shimobe"],
+    "hiragana": ["しもべ"],
+    "meaning": "me, I (male), servant, manservant"
+  },
+  {
+    "kanji": "桜",
+    "onyomi": ["ou", "you"],
+    "katakana": ["オウ", "ヨウ"],
+    "kunyomi": ["sakura"],
+    "hiragana": ["さくら"],
+    "meaning": "cherry"
+  },
+  {
+    "kanji": "滑",
+    "onyomi": ["katsu", "kotsu"],
+    "katakana": ["カツ", "コツ"],
+    "kunyomi": ["sube(ru)", "name(raka)"],
+    "hiragana": ["すべ.る", "なめ.らか"],
+    "meaning": "slippery, slide, slip, fail exam"
+  },
+  {
+    "kanji": "孤",
+    "onyomi": ["ko"],
+    "katakana": ["コ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "orphan, alone"
+  },
+  {
+    "kanji": "煕",
+    "onyomi": ["ki"],
+    "katakana": ["キ"],
+    "kunyomi": ["tanoshi(mu)", "hika(ru)", "hiro(i)", "yoroko(bu)", "kawa(ku)", "akiraka"],
+    "hiragana": ["たのし(む)", "ひか(る)", "ひろ(い)", "よろこ(ぶ)", "かわ(く)", "あきらか"],
+    "meaning": "shine"
+  },
+  {
+    "kanji": "炎",
+    "onyomi": ["en"],
+    "katakana": ["エン"],
+    "kunyomi": ["honoo"],
+    "hiragana": ["ほのお"],
+    "meaning": "inflammation, flame, blaze"
+  },
+  {
+    "kanji": "賠",
+    "onyomi": ["bai"],
+    "katakana": ["バイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "compensation, indemnify"
+  },
+  {
+    "kanji": "句",
+    "onyomi": ["ku"],
+    "katakana": ["ク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "phrase, clause, sentence, passage, paragraph, counter for haiku"
+  },
+  {
+    "kanji": "寿",
+    "onyomi": ["ju", "su", "shuu"],
+    "katakana": ["ジュ", "ス", "シュウ"],
+    "kunyomi": ["kotobuki", "kotobu(ku)", "kotoho(gu)"],
+    "hiragana": ["ことぶき", "ことぶ(く)", "ことほ(ぐ)"],
+    "meaning": "longevity, congratulations, one's natural life"
+  },
+  {
+    "kanji": "鋼",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["hagane"],
+    "hiragana": ["はがね"],
+    "meaning": "steel"
+  },
+  {
+    "kanji": "頑",
+    "onyomi": ["gan"],
+    "katakana": ["ガン"],
+    "kunyomi": ["kataku(na)"],
+    "hiragana": ["かたく(な)"],
+    "meaning": "stubborn, foolish, firmly"
+  },
+  {
+    "kanji": "鎖",
+    "onyomi": ["sa"],
+    "katakana": ["サ"],
+    "kunyomi": ["kusari", "toza(su)"],
+    "hiragana": ["くさり", "とざ.す"],
+    "meaning": "chain, irons, connection"
+  },
+  {
+    "kanji": "彩",
+    "onyomi": ["sai"],
+    "katakana": ["サイ"],
+    "kunyomi": ["irodo(ru)"],
+    "hiragana": ["いろど.る"],
+    "meaning": "coloring, paint, makeup"
+  },
+  {
+    "kanji": "摩",
+    "onyomi": ["ma"],
+    "katakana": ["マ"],
+    "kunyomi": ["ma(suru)", "sasu(ru)", "su(ru)"],
+    "hiragana": ["ま(する)", "さす(る)", "す(る)"],
+    "meaning": "chafe, rub, polish, grind, scrape"
+  },
+  {
+    "kanji": "励",
+    "onyomi": ["rei"],
+    "katakana": ["レイ"],
+    "kunyomi": ["hage(mu)", "hage(masu)"],
+    "hiragana": ["はげ(む)", "はげ(ます)"],
+    "meaning": "encourage, be diligent, inspire"
+  },
+  {
+    "kanji": "縦",
+    "onyomi": ["juu"],
+    "katakana": ["ジュウ"],
+    "kunyomi": ["tate"],
+    "hiragana": ["たて"],
+    "meaning": "vertical, length, height, self-indulgent, wayward"
+  },
+  {
+    "kanji": "輝",
+    "onyomi": ["ki"],
+    "katakana": ["キ"],
+    "kunyomi": ["kagaya(ku)"],
+    "hiragana": ["かがや(く)"],
+    "meaning": "radiance, shine, sparkle, gleam, twinkle"
+  },
+  {
+    "kanji": "蓄",
+    "onyomi": ["chiku"],
+    "katakana": ["チク"],
+    "kunyomi": ["takuwa(eru)"],
+    "hiragana": ["たくわ(える)"],
+    "meaning": "amass, raise, hoard, store"
+  },
+  {
+    "kanji": "軸",
+    "onyomi": ["jiku"],
+    "katakana": ["ジク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "axis, pivot, stem, stalk, counter for book scrolls"
+  },
+  {
+    "kanji": "巡",
+    "onyomi": ["jun"],
+    "katakana": ["ジュン"],
+    "kunyomi": ["megu(ru)", "megu(ri)"],
+    "hiragana": ["めぐ(る)", "めぐ(り)"],
+    "meaning": "patrol, go around, circumference"
+  },
+  {
+    "kanji": "稼",
+    "onyomi": ["ka"],
+    "katakana": ["カ"],
+    "kunyomi": ["kase(gu)"],
+    "hiragana": ["かせ(ぐ)"],
+    "meaning": "earnings, work, earn money"
+  },
+  {
+    "kanji": "瞬",
+    "onyomi": ["shun"],
+    "katakana": ["シュン"],
+    "kunyomi": ["matata(ku)", "majiro(gu)"],
+    "hiragana": ["またた(く)", "まじろ(ぐ)"],
+    "meaning": "wink, blink, twinkle"
+  },
+  {
+    "kanji": "砲",
+    "onyomi": ["hou"],
+    "katakana": ["ホウ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "cannon, gun"
+  },
+  {
+    "kanji": "噴",
+    "onyomi": ["fun"],
+    "katakana": ["フン"],
+    "kunyomi": ["fuku"],
+    "hiragana": ["ふ(く)"],
+    "meaning": "erupt, spout, emit, flush out"
+  },
+  {
+    "kanji": "誇",
+    "onyomi": ["ko"],
+    "katakana": ["コ"],
+    "kunyomi": ["hoko(ru)"],
+    "hiragana": ["ほこ(る)"],
+    "meaning": "boast, be proud, pride, triumphantly"
+  },
+  {
+    "kanji": "祥",
+    "onyomi": ["shou"],
+    "katakana": ["ショウ"],
+    "kunyomi": ["saiwa(i)", "kiza(shi)", "yo(i)", "tsumabi(raka)"],
+    "hiragana": ["さいわ(い)", "きざ(し)", "よ(い)", "つまび(らか)"],
+    "meaning": "auspicious, happiness, blessedness, good omen, good fortune"
+  },
+  {
+    "kanji": "牲",
+    "onyomi": ["sei"],
+    "katakana": ["セイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "animal sacrifice, offering"
+  },
+  {
+    "kanji": "秩",
+    "onyomi": ["chitsu"],
+    "katakana": ["チツ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "regularity, salary, order"
+  },
+  {
+    "kanji": "帝",
+    "onyomi": ["tei"],
+    "katakana": ["テイ"],
+    "kunyomi": ["mikado"],
+    "hiragana": ["みかど"],
+    "meaning": "sovereign, the emperor, god, creator"
+  },
+  {
+    "kanji": "宏",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["hiro(i)"],
+    "hiragana": ["ひろ(い)"],
+    "meaning": "wide, large"
+  },
+  {
+    "kanji": "唆",
+    "onyomi": ["sa"],
+    "katakana": ["サ"],
+    "kunyomi": ["soso(ru)", "sosonoka(su)"],
+    "hiragana": ["そそ(る)", "そそのか(す)"],
+    "meaning": "tempt, seduce, instigate, promote"
+  },
+  {
+    "kanji": "阻",
+    "onyomi": ["so"],
+    "katakana": ["ソ"],
+    "kunyomi": ["haba(mu)"],
+    "hiragana": ["はば(む)"],
+    "meaning": "thwart, separate from, prevent, obstruct, deter, impede"
+  },
+  {
+    "kanji": "泰",
+    "onyomi": ["tai"],
+    "katakana": ["タイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "peaceful, calm, peace, easy, Thailand, extreme, excessive, great"
+  },
+  {
+    "kanji": "賄",
+    "onyomi": ["wai"],
+    "katakana": ["ワイ"],
+    "kunyomi": ["makana(u)"],
+    "hiragana": ["まかな(う)"],
+    "meaning": "bribe, board, supply, finance"
+  },
+  {
+    "kanji": "撲",
+    "onyomi": ["boku"],
+    "katakana": ["ボク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "slap, strike, hit, beat, tell, speak"
+  },
+  {
+    "kanji": "堀",
+    "onyomi": ["kutsu"],
+    "katakana": ["クツ"],
+    "kunyomi": ["hori"],
+    "hiragana": ["ほり"],
+    "meaning": "ditch, moat, canal"
+  },
+  {
+    "kanji": "菊",
+    "onyomi": ["kiku"],
+    "katakana": ["キク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "chrysanthemum"
+  },
+  {
+    "kanji": "絞",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["shibo(ru)", "shi(meru)", "shi(maru)"],
+    "hiragana": ["しぼ(る)", "し(める)", "し(まる)"],
+    "meaning": "strangle, constrict, wring"
+  },
+  {
+    "kanji": "縁",
+    "onyomi": ["en", "-nen"],
+    "katakana": ["エン", "-ネン"],
+    "kunyomi": ["fuchi", "yukari", "yosuga", "heri", "enishi"],
+    "hiragana": ["ふち", "ゆかり", "よすが", "へり", "えにし"],
+    "meaning": "affinity, relation, connection, edge, border, verge, brink"
+  },
+  {
+    "kanji": "唯",
+    "onyomi": ["yui", "i"],
+    "katakana": ["ユイ", "イ"],
+    "kunyomi": ["tada"],
+    "hiragana": ["ただ"],
+    "meaning": "solely, only, merely, simply"
+  },
+  {
+    "kanji": "膨",
+    "onyomi": ["bou"],
+    "katakana": ["ボウ"],
+    "kunyomi": ["fuku(ramu)", "fuku(reru)"],
+    "hiragana": ["ふく(らむ)", "ふく(れる)"],
+    "meaning": "swell, get fat, thick"
+  },
+  {
+    "kanji": "耐",
+    "onyomi": ["tai"],
+    "katakana": ["タイ"],
+    "kunyomi": ["ta(eru)"],
+    "hiragana": ["た(える)"],
+    "meaning": "-proof, enduring"
+  },
+  {
+    "kanji": "塾",
+    "onyomi": ["juku"],
+    "katakana": ["ジュク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "cram school, private school"
+  },
+  {
+    "kanji": "漏",
+    "onyomi": ["rou"],
+    "katakana": ["ロウ"],
+    "kunyomi": ["mo(ru)", "mo(reru)", "mo(rasu)"],
+    "hiragana": ["も(る)", "も(れる)", "も(らす)"],
+    "meaning": "leak, escape, time"
+  },
+  {
+    "kanji": "慶",
+    "onyomi": ["kei"],
+    "katakana": ["ケイ"],
+    "kunyomi": ["yoroko(bi)"],
+    "hiragana": ["よろこ(び)"],
+    "meaning": "jubilation, congratulate, rejoice, be happy"
+  },
+  {
+    "kanji": "猛",
+    "onyomi": ["mou"],
+    "katakana": ["モウ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "fierce, rave, rush, become furious, wildness, strength"
+  },
+  {
+    "kanji": "芳",
+    "onyomi": ["hou"],
+    "katakana": ["ホウ"],
+    "kunyomi": ["kanba(shii)"],
+    "hiragana": ["かんば(しい)"],
+    "meaning": "perfume, balmy, favorable, fragrant"
+  },
+  {
+    "kanji": "懲",
+    "onyomi": ["chou"],
+    "katakana": ["チョウ"],
+    "kunyomi": ["ko(riru)", "ko(rasu)", "ko(rashimeru)"],
+    "hiragana": ["こ(りる)", "こ(らす)", "こ(らしめる)"],
+    "meaning": "penal, chastise, punish, discipline"
+  },
+  {
+    "kanji": "剣",
+    "onyomi": ["ken"],
+    "katakana": ["ケン"],
+    "kunyomi": ["tsurugi"],
+    "hiragana": ["つるぎ"],
+    "meaning": "sabre, sword, blade, clock hand"
+  },
+  {
+    "kanji": "幌",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["horo", "tobari"],
+    "hiragana": ["ほろ", "とばり"],
+    "meaning": "canopy, awning, hood, curtain"
+  },
+  {
+    "kanji": "彰",
+    "onyomi": ["shou"],
+    "katakana": ["ショウ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "patent, clear"
+  },
+  {
+    "kanji": "棋",
+    "onyomi": ["ko"],
+    "katakana": ["キ"],
+    "kunyomi": ["go"],
+    "hiragana": ["ご"],
+    "meaning": "chess piece, Japanese chess, shogi"
+  },
+  {
+    "kanji": "丁",
+    "onyomi": ["chou", "tei", "chin", "tou", "chi"],
+    "katakana": ["チョウ", "テイ", "チン", "トウ", "チ"],
+    "kunyomi": ["hinoto"],
+    "hiragana": ["ひのと"],
+    "meaning": "street, ward, town, counter for guns, tools"
+  },
+  {
+    "kanji": "恒",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["tsune", "tsuneni"],
+    "hiragana": ["つね", "つねに"],
+    "meaning": "constancy, always"
+  },
+  {
+    "kanji": "揚",
+    "onyomi": ["you"],
+    "katakana": ["ヨウ"],
+    "kunyomi": ["a(geru)", "-a(ge)"],
+    "hiragana": ["あ(げる)", "-あ(げ)"],
+    "meaning": "raise, elevate, hoist, praise, extol, fry in deep fat"
+  },
+  {
+    "kanji": "冒",
+    "onyomi": ["bou"],
+    "katakana": ["ボウ"],
+    "kunyomi": ["oka(su)"],
+    "hiragana": ["おか(す)"],
+    "meaning": "risk, face, defy, dare, damage, assume (a name)"
+  },
+  {
+    "kanji": "之",
+    "onyomi": ["shi"],
+    "katakana": ["シ"],
+    "kunyomi": ["no", "kore", "yuku", "kono"],
+    "hiragana": ["の", "これ", "ゆく", "この"],
+    "meaning": "of, this"
+  },
+  {
+    "kanji": "曽",
+    "onyomi": ["sou", "so"],
+    "katakana": ["ソウ", "ソ"],
+    "kunyomi": ["katsu", "katsute", "sunawachi"],
+    "hiragana": ["かつ", "かつて", "すなわち"],
+    "meaning": "formerly, once, before, ever, never, ex-"
+  },
+  {
+    "kanji": "倫",
+    "onyomi": ["rin"],
+    "katakana": ["リン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "ethics, companion"
+  },
+  {
+    "kanji": "陳",
+    "onyomi": ["chin"],
+    "katakana": ["チン"],
+    "kunyomi": ["hi(neru)"],
+    "hiragana": ["ひ(ねる)"],
+    "meaning": "exhibit, state, relate, explain"
+  },
+  {
+    "kanji": "憶",
+    "onyomi": ["oku"],
+    "katakana": ["オク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "recollection, think, remember"
+  },
+  {
+    "kanji": "潜",
+    "onyomi": ["sen"],
+    "katakana": ["セン"],
+    "kunyomi": ["hiso(mu)", "mogu(ru)", "kaku(reru)", "kugu(ru)"],
+    "hiragana": ["ひそ(む)", "もぐ(る)", "かく(れる)", "くぐ(る)"],
+    "meaning": "submerge, conceal, hide, lower (voice), hush"
+  },
+  {
+    "kanji": "梨",
+    "onyomi": ["ri"],
+    "katakana": ["リ"],
+    "kunyomi": ["nashi"],
+    "hiragana": ["なし"],
+    "meaning": "pear tree"
+  },
+  {
+    "kanji": "仁",
+    "onyomi": ["jin", "ni", "nin"],
+    "katakana": ["ジン", "ニ", "ニン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "humanity, virtue, benevolence, charity, man, kernel"
+  },
+  {
+    "kanji": "克",
+    "onyomi": ["koku"],
+    "katakana": ["コク"],
+    "kunyomi": ["ka(tsu)"],
+    "hiragana": ["か(つ)"],
+    "meaning": "overcome, kindly, skillfully"
+  },
+  {
+    "kanji": "岳",
+    "onyomi": ["gaku"],
+    "katakana": ["ガク"],
+    "kunyomi": ["dake"],
+    "hiragana": ["たけ"],
+    "meaning": "point, peak, mountain"
+  },
+  {
+    "kanji": "概",
+    "onyomi": ["gai"],
+    "katakana": ["ガイ"],
+    "kunyomi": ["oomu(ne)"],
+    "hiragana": ["おおむ(ね)"],
+    "meaning": "outline, condition, approximation, generally"
+  },
+  {
+    "kanji": "拘",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["kaka(waru)"],
+    "hiragana": ["かか(わる)"],
+    "meaning": "arrest, seize, concerned, adhere to, despite"
+  },
+  {
+    "kanji": "墓",
+    "onyomi": ["bo"],
+    "katakana": ["ボ"],
+    "kunyomi": ["haka"],
+    "hiragana": ["はか"],
+    "meaning": "grave, tomb"
+  },
+  {
+    "kanji": "黙",
+    "onyomi": ["moku", "boku"],
+    "katakana": ["モク", "ボク"],
+    "kunyomi": ["dama(ru)", "moda(su)"],
+    "hiragana": ["だま(る)", "もだ(す)"],
+    "meaning": "silence, become silent, stop speaking, leave as is"
+  },
+  {
+    "kanji": "須",
+    "onyomi": ["su", "shu"],
+    "katakana": ["ス", "シュ"],
+    "kunyomi": ["subekara(ku)", "subeshi", "hige", "matsu", "mochi(iru)", "moto(meru)"],
+    "hiragana": ["すべから(く)", "すべし", "ひげ", "まつ", "もち(いる)", "もと(める)"],
+    "meaning": "ought, by all means, necessarily"
+  },
+  {
+    "kanji": "偏",
+    "onyomi": ["hen"],
+    "katakana": ["ヘン"],
+    "kunyomi": ["katayo(ru)"],
+    "hiragana": ["かたよ(る)"],
+    "meaning": "partial, side, left-side radical, inclining, biased"
+  },
+  {
+    "kanji": "雰",
+    "onyomi": ["fun"],
+    "katakana": ["フン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "atmosphere, fog"
+  },
+  {
+    "kanji": "遇",
+    "onyomi": ["guu"],
+    "katakana": ["グウ"],
+    "kunyomi": ["a(u)"],
+    "hiragana": ["あ(う)"],
+    "meaning": "meet, encounter, interview, treat, entertain, receive, deal with"
+  },
+  {
+    "kanji": "諮",
+    "onyomi": ["shi"],
+    "katakana": ["シ"],
+    "kunyomi": ["haka(ru)"],
+    "hiragana": ["はか(る)"],
+    "meaning": "consult with"
+  },
+  {
+    "kanji": "狭",
+    "onyomi": ["kyou", "kou"],
+    "katakana": ["キョウ", "コウ"],
+    "kunyomi": ["sema(i)", "seba(meru)", "sa"],
+    "hiragana": ["せま(い)", "せば(める)", "さ"],
+    "meaning": "cramped, narrow, contract, tight"
+  },
+  {
+    "kanji": "卓",
+    "onyomi": ["taku"],
+    "katakana": ["タク"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "eminent, table, desk, high"
+  },
+  {
+    "kanji": "亀",
+    "onyomi": ["ki", "kyuu", "kin"],
+    "katakana": ["キ", "キュウ", "キン"],
+    "kunyomi": ["kame"],
+    "hiragana": ["かめ"],
+    "meaning": "tortoise, turtle"
+  },
+  {
+    "kanji": "糧",
+    "onyomi": ["ryou", "rou"],
+    "katakana": ["リョウ", "ロウ"],
+    "kunyomi": ["kate"],
+    "hiragana": ["かて"],
+    "meaning": "provisions, food, bread"
+  },
+  {
+    "kanji": "梶",
+    "onyomi": ["bi"],
+    "katakana": ["ビ"],
+    "kunyomi": ["kaji", "kozue"],
+    "hiragana": ["かじ", "こずえ"],
+    "meaning": "sculling oar"
+  },
+  {
+    "kanji": "簿",
+    "onyomi": ["bo"],
+    "katakana": ["ボ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "register, record book"
+  },
+  {
+    "kanji": "炉",
+    "onyomi": ["ro"],
+    "katakana": ["ロ"],
+    "kunyomi": ["irori"],
+    "hiragana": ["いろり"],
+    "meaning": "hearth, furnace, kiln, reactor"
+  },
+  {
+    "kanji": "牧",
+    "onyomi": ["boku"],
+    "katakana": ["ボク"],
+    "kunyomi": ["maki"],
+    "hiragana": ["まき"],
+    "meaning": "breed, care for, shepherd, feed, pasture"
+  },
+  {
+    "kanji": "殊",
+    "onyomi": ["shu"],
+    "katakana": ["シュ"],
+    "kunyomi": ["koto"],
+    "hiragana": ["こと"],
+    "meaning": "particularly, especially, exceptionally"
+  },
+  {
+    "kanji": "殖",
+    "onyomi": ["shoku"],
+    "katakana": ["ショク"],
+    "kunyomi": ["fu(eru)", "fu(yasu)"],
+    "hiragana": ["ふ(える)", "ふ(やす)"],
+    "meaning": "augment, increase, multiply, raise"
+  },
+  {
+    "kanji": "艦",
+    "onyomi": ["kan"],
+    "katakana": ["カン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "warship"
+  },
+  {
+    "kanji": "輩",
+    "onyomi": ["hai"],
+    "katakana": ["ハイ"],
+    "kunyomi": ["-bara", "yakara", "yakai", "tomogara"],
+    "hiragana": ["-ばら", "やから", "やかい", "ともがら"],
+    "meaning": "comrade, fellow, people, companions"
+  },
+  {
+    "kanji": "穴",
+    "onyomi": ["ketsu"],
+    "katakana": ["ケツ"],
+    "kunyomi": ["ana"],
+    "hiragana": ["あな"],
+    "meaning": "hole, aperture, slit, cave, den"
+  },
+  {
+    "kanji": "奇",
+    "onyomi": ["ki"],
+    "katakana": ["キ"],
+    "kunyomi": ["ku(shiki)", "aya(shii)", "kushi", "mezura(shii)"],
+    "hiragana": ["く(しき)", "あや(しい)", "くし", "めずら(しい)"],
+    "meaning": "strange, strangeness, curiosity"
+  },
+  {
+    "kanji": "慢",
+    "onyomi": ["man"],
+    "katakana": ["マン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "ridicule, laziness"
+  },
+  {
+    "kanji": "鶴",
+    "onyomi": ["kaku"],
+    "katakana": ["カク"],
+    "kunyomi": ["tsuru"],
+    "hiragana": ["つる"],
+    "meaning": "crane, stork"
+  },
+  {
+    "kanji": "謀",
+    "onyomi": ["bou", "mu"],
+    "katakana": ["ボウ", "ム"],
+    "kunyomi": ["haka(ru)", "tabaka(ru)", "hakarigoto"],
+    "hiragana": ["はか(る)", "たばか(る)", "はかりごと"],
+    "meaning": "conspire, cheat, impose on, plan, devise, scheme, have in mind, deceive"
+  },
+  {
+    "kanji": "暖",
+    "onyomi": ["dan", "non"],
+    "katakana": ["ダン", "ノン"],
+    "kunyomi": ["atata(kai)"],
+    "hiragana": ["あたた(かい)"],
+    "meaning": "warmth"
+  },
+  {
+    "kanji": "昌",
+    "onyomi": ["shou"],
+    "katakana": ["ショウ"],
+    "kunyomi": ["sakan"],
+    "hiragana": ["さかん"],
+    "meaning": "prosperous, bright, clear"
+  },
+  {
+    "kanji": "拍",
+    "onyomi": ["haku", "hyou"],
+    "katakana": ["ハク", "ヒョウ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "clap, beat (music)"
+  },
+  {
+    "kanji": "朗",
+    "onyomi": ["rou"],
+    "katakana": ["ロウ"],
+    "kunyomi": ["hoga(raka)", "aki(raka)"],
+    "hiragana": ["ほが(らか)", "あき(らか)"],
+    "meaning": "melodious, clear, bright, serene, cheerful"
+  },
+  {
+    "kanji": "丈",
+    "onyomi": ["jou"],
+    "katakana": ["ジョウ"],
+    "kunyomi": ["take", "dake"],
+    "hiragana": ["たけ", "だけ"],
+    "meaning": "length, ten shaku, measure, Mr., Ms., height, stature, all (one has), only, that's all, merely"
+  },
+  {
+    "kanji": "寛",
+    "onyomi": ["kan"],
+    "katakana": ["カン"],
+    "kunyomi": ["kutsuro(gu)", "hiro(i)", "yuru(yaka)"],
+    "hiragana": ["くつろ(ぐ)", "ひろ(い)", "ゆる(やか)"],
+    "meaning": "tolerant, leniency, generosity, relax, feel at home, be at ease, broadminded"
+  },
+  {
+    "kanji": "覆",
+    "onyomi": ["fuku"],
+    "katakana": ["フク"],
+    "kunyomi": ["oo(u)", "kutsugae(su)"],
+    "hiragana": ["おお(う)", "くつがえ(す)"],
+    "meaning": "capsize, cover, shade, mantle, be ruined"
+  },
+  {
+    "kanji": "胞",
+    "onyomi": ["hou"],
+    "katakana": ["ホウ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "placenta, sac, sheath"
+  },
+  {
+    "kanji": "泣",
+    "onyomi": ["kyuu"],
+    "katakana": ["キュウ"],
+    "kunyomi": ["na(ku)"],
+    "hiragana": ["な(く)"],
+    "meaning": "cry, weep, moan"
+  },
+  {
+    "kanji": "隔",
+    "onyomi": ["kaku"],
+    "katakana": ["カク"],
+    "kunyomi": ["heda(teru)"],
+    "hiragana": ["へだ(てる)"],
+    "meaning": "isolate, alternate, distance, separate, gulf"
+  },
+  {
+    "kanji": "浄",
+    "onyomi": ["jou", "sei"],
+    "katakana": ["ジョウ", "セイ"],
+    "kunyomi": ["kiyo(meru)", "kiyo(i)"],
+    "hiragana": ["きよ(める)", "きよ(い)"],
+    "meaning": "clean, purify, cleanse, exorcise, Manchu Dynasty"
+  },
+  {
+    "kanji": "没",
+    "onyomi": ["botsu", "motsu"],
+    "katakana": ["ボツ", "モツ"],
+    "kunyomi": ["obo(reru)", "shizu(mu)", "nai"],
+    "hiragana": ["おぼ(れる)", "しず(む)", "ない"],
+    "meaning": "drown, sink, hide, fall into, disappear, die"
+  },
+  {
+    "kanji": "暇",
+    "onyomi": ["ka"],
+    "katakana": ["カ"],
+    "kunyomi": ["itoma"],
+    "hiragana": ["ひま", "いとま"],
+    "meaning": "spare time, rest, leisure, time, leave of absence"
+  },
+  {
+    "kanji": "肺",
+    "onyomi": ["hai"],
+    "katakana": ["ハイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "lungs"
+  },
+  {
+    "kanji": "貞",
+    "onyomi": ["tei", "jou"],
+    "katakana": ["テイ", "ジョウ"],
+    "kunyomi": ["tadashi(i)", "sada"],
+    "hiragana": ["ただし(い)", "さだ"],
+    "meaning": "upright, chastity, constancy, righteousness"
+  },
+  {
+    "kanji": "靖",
+    "onyomi": ["sei", "jou"],
+    "katakana": ["セイ", "ジョウ"],
+    "kunyomi": ["yasu(njiru)"],
+    "hiragana": ["やす(んじる)"],
+    "meaning": "peaceful"
+  },
+  {
+    "kanji": "鑑",
+    "onyomi": ["kan"],
+    "katakana": ["カン"],
+    "kunyomi": ["kanga(miru)", "kagami"],
+    "hiragana": ["かんが(みる)", "かがみ"],
+    "meaning": "specimen, take warning from, learn from"
+  },
+  {
+    "kanji": "飼",
+    "onyomi": ["shi"],
+    "katakana": ["シ"],
+    "kunyomi": ["ka(u)"],
+    "hiragana": ["か(う)"],
+    "meaning": "domesticate, raise, keep, feed"
+  },
+  {
+    "kanji": "陰",
+    "onyomi": ["in"],
+    "katakana": ["イン"],
+    "kunyomi": ["kage", "kage(ru)"],
+    "hiragana": ["かげ", "かげ(る)"],
+    "meaning": "shade, yin, negative, sex organs, secret, shadow"
+  },
+  {
+    "kanji": "銘",
+    "onyomi": ["mei"],
+    "katakana": ["メイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "inscription, signature (of artisan)"
+  },
+  {
+    "kanji": "随",
+    "onyomi": ["zui"],
+    "katakana": ["ズイ"],
+    "kunyomi": ["manima(ni)", "shitaga(u)"],
+    "hiragana": ["まにま(に)", "したが(う)"],
+    "meaning": "follow, though, notwithstanding, while, during, both, all, obey, submit to, comply"
+  },
+  {
+    "kanji": "烈",
+    "onyomi": ["retsu"],
+    "katakana": ["レツ"],
+    "kunyomi": ["hage(shii)"],
+    "hiragana": ["はげ(しい)"],
+    "meaning": "ardent, violent, vehement, furious, severe, extreme"
+  },
+  {
+    "kanji": "尋",
+    "onyomi": ["jin"],
+    "katakana": ["ジン"],
+    "kunyomi": ["tazu(neru)", "hiro"],
+    "hiragana": ["たず(ねる)", "ひろ"],
+    "meaning": "inquire, fathom, look for"
+  },
+  {
+    "kanji": "渕",
+    "onyomi": ["en", "kaku", "kou"],
+    "katakana": ["エン", "カク", "コウ"],
+    "kunyomi": ["fuchi", "kata(i)", "hanawa"],
+    "hiragana": ["ふち", "かた(い)", "はなわ"],
+    "meaning": "edge"
+  },
+  {
+    "kanji": "稿",
+    "onyomi": ["kou"],
+    "katakana": ["コウ"],
+    "kunyomi": ["wara", "shitagaki"],
+    "hiragana": ["わら", "したがき"],
+    "meaning": "draft, copy, manuscript, straw"
+  },
+  {
+    "kanji": "丹",
+    "onyomi": ["tan"],
+    "katakana": ["タン"],
+    "kunyomi": ["ni"],
+    "hiragana": ["に"],
+    "meaning": "rust-colored, red, red lead, pills, sincerity"
+  },
+  {
+    "kanji": "啓",
+    "onyomi": ["kei"],
+    "katakana": ["ケイ"],
+    "kunyomi": ["hira(ku)", "sato(su)"],
+    "hiragana": ["ひら(く)", "さと(す)"],
+    "meaning": "disclose, open, say"
+  },
+  {
+    "kanji": "也",
+    "onyomi": ["ya", "e"],
+    "katakana": ["ヤ", "エ"],
+    "kunyomi": ["nari", "ka", "mata"],
+    "hiragana": ["なり", "か", "また"],
+    "meaning": "to be (classical)"
+  },
+  {
+    "kanji": "丘",
+    "onyomi": ["kyuu"],
+    "katakana": ["キュウ"],
+    "kunyomi": ["oka"],
+    "hiragana": ["おか"],
+    "meaning": "hill, knoll"
+  },
+  {
+    "kanji": "棟",
+    "onyomi": ["tou"],
+    "katakana": ["トウ"],
+    "kunyomi": ["mune", "muna-"],
+    "hiragana": ["むね", "むな-"],
+    "meaning": "ridgepole, ridge"
+  },
+  {
+    "kanji": "壌",
+    "onyomi": ["jou"],
+    "katakana": ["ジョウ"],
+    "kunyomi": ["tsuchi"],
+    "hiragana": ["つち"],
+    "meaning": "lot, earth, soil"
+  },
+  {
+    "kanji": "漫",
+    "onyomi": ["man"],
+    "katakana": ["マン"],
+    "kunyomi": ["midari(ni)", "sozo(ro)"],
+    "hiragana": ["みだり(に)", "そぞ(ろ)"],
+    "meaning": "cartoon, involuntarily, unrestrained, in spite of oneself, corrupt"
+  },
+  {
+    "kanji": "玄",
+    "onyomi": ["gen"],
+    "katakana": ["ゲン"],
+    "kunyomi": ["kuro", "kuro(i)"],
+    "hiragana": ["くろ", "くろ(い)"],
+    "meaning": "mysterious, occultness, black, deep, profound"
+  },
+  {
+    "kanji": "粘",
+    "onyomi": ["nen"],
+    "katakana": ["ネン"],
+    "kunyomi": ["neba(ru)"],
+    "hiragana": ["ねば(る)"],
+    "meaning": "sticky, glutinous, greasy, persevere"
+  },
+  {
+    "kanji": "悟",
+    "onyomi": ["go"],
+    "katakana": ["ゴ"],
+    "kunyomi": ["sato(ru)"],
+    "hiragana": ["さと(る)"],
+    "meaning": "enlightenment, perceive, discern, realize, understand"
+  },
+  {
+    "kanji": "舗",
+    "onyomi": ["ho"],
+    "katakana": ["ホ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "shop, store, pave"
+  },
+  {
+    "kanji": "妊",
+    "onyomi": ["nin", "jin"],
+    "katakana": ["ニン", "ジン"],
+    "kunyomi": ["hara(mu)", "migomo(ru)"],
+    "hiragana": ["はら(む)", "みごも(る)"],
+    "meaning": "pregnancy"
+  },
+  {
+    "kanji": "熟",
+    "onyomi": ["juku"],
+    "katakana": ["ジュク"],
+    "kunyomi": ["u(reru)"],
+    "hiragana": ["う(れる)"],
+    "meaning": "mellow, ripen, mature, acquire skill"
+  },
+  {
+    "kanji": "旭",
+    "onyomi": ["kyoku"],
+    "katakana": ["キョク"],
+    "kunyomi": ["asahi"],
+    "hiragana": ["あさひ"],
+    "meaning": "rising sun, morning sun"
+  },
+  {
+    "kanji": "恩",
+    "onyomi": ["on"],
+    "katakana": ["オン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "grace, kindness, goodness, favor, mercy, blessing, benefit"
+  },
+  {
+    "kanji": "騰",
+    "onyomi": ["tou"],
+    "katakana": ["トウ"],
+    "kunyomi": ["aga(ru)", "nobo(ru)"],
+    "hiragana": ["あが(る)", "のぼ(る)"],
+    "meaning": "leaping up, jumping up, rising, advancing, going"
+  },
+  {
+    "kanji": "往",
+    "onyomi": ["ou"],
+    "katakana": ["オウ"],
+    "kunyomi": ["i(ku)", "inishie", "saki(ni)", "yu(ku)"],
+    "hiragana": ["い(く)", "いにしえ", "さき(に)", "ゆ(く)"],
+    "meaning": "journey, travel, chase away, let go, going, before, formerly"
+  },
+  {
+    "kanji": "豆",
+    "onyomi": ["tou", "zu"],
+    "katakana": ["トウ", "ズ"],
+    "kunyomi": ["mame", "mame-"],
+    "hiragana": ["まめ", "まめ-"],
+    "meaning": "beans, pea, midget"
+  },
+  {
+    "kanji": "遂",
+    "onyomi": ["sui"],
+    "katakana": ["スイ"],
+    "kunyomi": ["to(geru)", "tsui(ni)"],
+    "hiragana": ["と(げる)", "つい(に)"],
+    "meaning": "consummate, accomplish, attain, commit (suicide)"
+  },
+  {
+    "kanji": "狂",
+    "onyomi": ["kyou"],
+    "katakana": ["キョウ"],
+    "kunyomi": ["kuru(u)"],
+    "hiragana": ["くる(う)"],
+    "meaning": "lunatic, insane, crazy, confuse"
+  },
+  {
+    "kanji": "栃",
+    "onyomi": [],
+    "katakana": [],
+    "kunyomi": ["tochi"],
+    "hiragana": ["とち"],
+    "meaning": "horse chestnut, (kokuji)"
+  },
+  {
+    "kanji": "岐",
+    "onyomi": ["ki", "gi"],
+    "katakana": ["キ", "ギ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "branch off, fork in road, scene, arena, theater"
+  },
+  {
+    "kanji": "陛",
+    "onyomi": ["hei"],
+    "katakana": ["ヘイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "highness, steps (of throne)"
+  },
+  {
+    "kanji": "緯",
+    "onyomi": ["i"],
+    "katakana": ["イ"],
+    "kunyomi": ["yokoito", "nuki"],
+    "hiragana": ["よこいと", "ぬき"],
+    "meaning": "horizontal, woof, left & right, (parallels of) latitude, prediction"
+  },
+  {
+    "kanji": "培",
+    "onyomi": ["bai"],
+    "katakana": ["バイ"],
+    "kunyomi": ["tsuchika(u)"],
+    "hiragana": ["つちか(う)"],
+    "meaning": "cultivate, foster"
+  },
+  {
+    "kanji": "衰",
+    "onyomi": ["sui"],
+    "katakana": ["スイ"],
+    "kunyomi": ["otoro(eru)"],
+    "hiragana": ["おとろ(える)"],
+    "meaning": "decline, wane, weaken"
+  },
+  {
+    "kanji": "艇",
+    "onyomi": ["tei"],
+    "katakana": ["テイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "rowboat, small boat"
+  },
+  {
+    "kanji": "屈",
+    "onyomi": ["kutsu"],
+    "katakana": ["クツ"],
+    "kunyomi": ["kaga(mu)"],
+    "hiragana": ["かが(む)"],
+    "meaning": "yield, bend, flinch, submit"
+  },
+  {
+    "kanji": "径",
+    "onyomi": ["kei"],
+    "katakana": ["ケイ"],
+    "kunyomi": ["michi", "komichi", "sashiwatashi", "tadachini"],
+    "hiragana": ["みち", "こみち", "さしわたし", "ただちに"],
+    "meaning": "diameter, path, method"
+  },
+  {
+    "kanji": "淡",
+    "onyomi": ["tan"],
+    "katakana": ["タン"],
+    "kunyomi": ["awa(i)"],
+    "hiragana": ["あわ(い)"],
+    "meaning": "thin, faint, pale, fleeting"
+  },
+  {
+    "kanji": "抽",
+    "onyomi": ["chuu"],
+    "katakana": ["チュウ"],
+    "kunyomi": ["hiki-"],
+    "hiragana": ["ひき-"],
+    "meaning": "pluck, pull, extract, excel"
+  },
+  {
+    "kanji": "披",
+    "onyomi": ["hi"],
+    "katakana": ["ヒ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "expose, open"
+  },
+  {
+    "kanji": "廷",
+    "onyomi": ["tei"],
+    "katakana": ["テイ"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "courts, imperial court, government office"
+  },
+  {
+    "kanji": "錦",
+    "onyomi": ["kin"],
+    "katakana": ["キン"],
+    "kunyomi": ["nishiki"],
+    "hiragana": ["にしき"],
+    "meaning": "brocade, fine dress, honors"
+  },
+  {
+    "kanji": "准",
+    "onyomi": ["jun"],
+    "katakana": ["ジュン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "quasi-, semi-, associate"
+  },
+  {
+    "kanji": "暑",
+    "onyomi": ["sho"],
+    "katakana": ["ショ"],
+    "kunyomi": ["atsu(i)"],
+    "hiragana": ["あつ(い)"],
+    "meaning": "sultry, hot, summer heat"
+  },
+  {
+    "kanji": "磯",
+    "onyomi": ["ki"],
+    "katakana": ["キ"],
+    "kunyomi": ["iso"],
+    "hiragana": ["いそ"],
+    "meaning": "seashore, beach"
+  },
+  {
+    "kanji": "奨",
+    "onyomi": ["shou", "sou"],
+    "katakana": ["ショウ", "ソウ"],
+    "kunyomi": ["susu(meru)"],
+    "hiragana": ["すす(める)"],
+    "meaning": "exhort, urge, encourage"
+  },
+  {
+    "kanji": "浸",
+    "onyomi": ["shin"],
+    "katakana": ["シン"],
+    "kunyomi": ["hita(su)", "tsu(karu)"],
+    "hiragana": ["ひた(す)", "つ(かる)"],
+    "meaning": "immersed, soak, dip, steep, moisten, wet, dunk"
+  },
+  {
+    "kanji": "剰",
+    "onyomi": ["jou"],
+    "katakana": ["ジョウ"],
+    "kunyomi": ["amatsusae", "ama(ri)"],
+    "hiragana": ["あまつさえ", "あま(り)"],
+    "meaning": "surplus, besides"
+  },
+  {
+    "kanji": "胆",
+    "onyomi": ["tan"],
+    "katakana": ["タン"],
+    "kunyomi": ["kimo"],
+    "hiragana": ["きも"],
+    "meaning": "gall bladder, courage, pluck, nerve"
+  },
+  {
+    "kanji": "繊",
+    "onyomi": ["sen"],
+    "katakana": ["セン"],
+    "kunyomi": [],
+    "hiragana": [],
+    "meaning": "slender, fine, thin kimono"
+  }
+]
