@@ -71,7 +71,9 @@ class _KanjiCameraWidgetState extends State<KanjiCameraWidget> {
     try {
       final RecognizedText recognizedText = await textRecognizer.processImage(inputImage);
       setState(() {
-        _recognizedText = recognizedText.text;
+        _recognizedText = recognizedText.text.length > 120
+          ? recognizedText.text.substring(0,120) + '...'
+          : recognizedText.text;
       });
       await _translateText(_recognizedText);
     } catch (e) {
@@ -82,8 +84,11 @@ class _KanjiCameraWidgetState extends State<KanjiCameraWidget> {
   Future<void> _translateText(String text) async {
     try {
       final translatedText = await onDeviceTranslator.translateText(text);
+      String truncatedTranslatedText = translatedText.length > 120
+        ? translatedText.substring(0,120) + '...'
+        : translatedText;
       setState(() {
-        _translatedText = translatedText;
+        _translatedText = truncatedTranslatedText;
       });
     } catch (e) {
       _logger.e('Error translating text: $e');
@@ -148,22 +153,26 @@ class _KanjiCameraWidgetState extends State<KanjiCameraWidget> {
                 children: [
                   const Text(
                     'Recognized Text:',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
                   ),
                   const SizedBox(height: 8),
                   Text(
                     _recognizedText,
                     style: const TextStyle(fontSize: 16),
+                    maxLines: 5,
+                    overflow: TextOverflow.ellipsis,
                   ),
                   const Divider(height: 32, thickness: 1),
                   const Text(
                     'Translated Text:',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
                   ),
                   const SizedBox(height: 8),
                   Text(
                     _translatedText,
                     style: const TextStyle(fontSize: 16),
+                    maxLines: 5,
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),
